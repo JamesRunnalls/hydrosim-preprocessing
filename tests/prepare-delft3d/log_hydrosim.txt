@@ -245,3 +245,842 @@
 19:37:55.793931      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
 19:37:55.825321      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
 19:37:55.861110   Completed extracting T_2M from COSMO files.
+16:25:39.391987   Copying simulation input files.
+16:25:39.393823   Completed copying simulation restart file.
+16:25:39.393907   Copying simulation restart file.
+16:25:39.396046      No restart file for 20210101 using restart file from 20201227
+16:25:39.453393   Completed copying simulation restart file.
+16:25:39.453591   Listing cosmo files.
+16:25:39.455926   Completed listing cosmo files.
+16:25:39.456134   Extracting T_2M from COSMO files.
+16:25:39.456207      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:25:39.523051      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:25:39.577203      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:25:39.630971      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:25:39.682537      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:25:39.734100      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:25:39.789354      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:25:39.874802      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:25:39.928284      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:25:39.989272   Completed extracting T_2M from COSMO files.
+16:25:55.017290   Copying simulation input files.
+16:25:55.018874   Completed copying simulation restart file.
+16:25:55.018947   Copying simulation restart file.
+16:25:55.020519      No restart file for 20210101 using restart file from 20201227
+16:25:55.040176   Completed copying simulation restart file.
+16:25:55.040324   Listing cosmo files.
+16:25:55.042524   Completed listing cosmo files.
+16:25:55.042700   Extracting T_2M from COSMO files.
+16:25:55.042769      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:25:55.071710      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:25:55.093942      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:25:55.115812      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:25:55.135941      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:25:55.161272      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:25:55.187010      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:25:55.211931      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:25:55.238116      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:25:55.270958   Completed extracting T_2M from COSMO files.
+16:33:43.654334   Copying simulation input files.
+16:33:43.655834   Completed copying simulation restart file.
+16:33:43.655907   Copying simulation restart file.
+16:33:43.657420      No restart file for 20210101 using restart file from 20201227
+16:33:43.676269   Completed copying simulation restart file.
+16:33:43.676409   Listing cosmo files.
+16:33:43.678437   Completed listing cosmo files.
+16:33:43.678627   Extracting T_2M from COSMO files.
+16:33:43.678700      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:33:43.710473      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:33:43.734687      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:33:43.757709      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:33:43.779231      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:33:43.801103      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:33:43.823141      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:33:43.844392      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:33:43.866114      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:33:43.896619   Completed extracting T_2M from COSMO files.
+16:33:54.265644   Copying simulation input files.
+16:33:54.267144   Completed copying simulation restart file.
+16:33:54.267221   Copying simulation restart file.
+16:33:54.268721      No restart file for 20210101 using restart file from 20201227
+16:33:54.289760   Completed copying simulation restart file.
+16:33:54.289886   Listing cosmo files.
+16:33:54.292156   Completed listing cosmo files.
+16:33:54.292381   Extracting T_2M from COSMO files.
+16:33:54.292461      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:33:54.325070      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:33:54.351185      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:33:54.376986      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:33:54.404497      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:33:54.437706      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:33:54.467988      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:33:54.504665      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:33:54.551232      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:33:54.591246   Completed extracting T_2M from COSMO files.
+16:34:24.433554   Copying simulation input files.
+16:34:24.435061   Completed copying simulation restart file.
+16:34:24.435138   Copying simulation restart file.
+16:34:24.436701      No restart file for 20210101 using restart file from 20201227
+16:34:24.466388   Completed copying simulation restart file.
+16:34:24.466668   Listing cosmo files.
+16:34:24.469066   Completed listing cosmo files.
+16:34:24.469261   Extracting T_2M from COSMO files.
+16:34:24.469329      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:34:24.500681      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:34:24.526438      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:34:24.551952      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:34:24.575894      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:34:24.599196      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:34:24.624201      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:34:24.662606      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:34:24.692700      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:34:24.724144   Completed extracting T_2M from COSMO files.
+16:35:44.533038   Copying simulation input files.
+16:35:44.534893   Completed copying simulation restart file.
+16:35:44.534975   Copying simulation restart file.
+16:35:44.536695      No restart file for 20210101 using restart file from 20201227
+16:35:44.557528   Completed copying simulation restart file.
+16:35:44.557685   Listing cosmo files.
+16:35:44.559754   Completed listing cosmo files.
+16:35:44.559921   Extracting T_2M from COSMO files.
+16:35:44.559991      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:35:44.593692      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:35:44.618179      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:35:44.641547      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:35:44.662904      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:35:44.684483      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:35:44.705277      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:35:44.727580      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:35:44.753004      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:35:44.781786   Completed extracting T_2M from COSMO files.
+16:35:56.387912   Copying simulation input files.
+16:35:56.389341   Completed copying simulation restart file.
+16:35:56.389411   Copying simulation restart file.
+16:35:56.391161      No restart file for 20210101 using restart file from 20201227
+16:35:56.409994   Completed copying simulation restart file.
+16:35:56.410120   Listing cosmo files.
+16:35:56.412301   Completed listing cosmo files.
+16:35:56.412488   Extracting T_2M from COSMO files.
+16:35:56.412556      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:35:56.442592      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:35:56.466704      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:35:56.496578      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:35:56.522923      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:35:56.546961      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:35:56.569751      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:35:56.591513      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:35:56.617893      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:35:56.646153   Completed extracting T_2M from COSMO files.
+16:38:00.829119   Copying simulation input files.
+16:38:00.830581   Completed copying simulation restart file.
+16:38:00.830649   Copying simulation restart file.
+16:38:00.832104      No restart file for 20210101 using restart file from 20201227
+16:38:00.850581   Completed copying simulation restart file.
+16:38:00.850735   Listing cosmo files.
+16:38:00.852965   Completed listing cosmo files.
+16:38:00.853132   Extracting T_2M from COSMO files.
+16:38:00.853194      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:38:00.884207      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:38:00.911616      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:38:00.939079      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:38:00.963821      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:38:00.988688      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:38:01.017008      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:38:01.043140      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:38:01.069411      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:38:01.101348   Completed extracting T_2M from COSMO files.
+16:38:54.528423   Copying simulation input files.
+16:38:54.529936   Completed copying simulation restart file.
+16:38:54.530005   Copying simulation restart file.
+16:38:54.531429      No restart file for 20210101 using restart file from 20201227
+16:38:54.549449   Completed copying simulation restart file.
+16:38:54.549590   Listing cosmo files.
+16:38:54.551610   Completed listing cosmo files.
+16:38:54.551781   Extracting T_2M from COSMO files.
+16:38:54.551847      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:38:54.579683      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:38:54.601583      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:38:54.621952      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:38:54.641700      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:38:54.661376      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:38:54.681828      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:38:54.701673      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:38:54.724688      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:38:54.754838   Completed extracting T_2M from COSMO files.
+16:39:09.383002   Copying simulation input files.
+16:39:09.384509   Completed copying simulation restart file.
+16:39:09.384578   Copying simulation restart file.
+16:39:09.386077      No restart file for 20210101 using restart file from 20201227
+16:39:09.410247   Completed copying simulation restart file.
+16:39:09.410398   Listing cosmo files.
+16:39:09.412450   Completed listing cosmo files.
+16:39:09.412611   Extracting T_2M from COSMO files.
+16:39:09.412674      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:39:09.440872      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:39:09.463127      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:39:09.484219      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:39:09.504363      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:39:09.524224      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:39:09.544010      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:39:09.563782      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:39:09.583808      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:39:09.615054   Completed extracting T_2M from COSMO files.
+16:40:10.604629   Copying simulation input files.
+16:40:10.606386   Completed copying simulation restart file.
+16:40:10.606467   Copying simulation restart file.
+16:40:10.608010      No restart file for 20210101 using restart file from 20201227
+16:40:10.626193   Completed copying simulation restart file.
+16:40:10.626318   Listing cosmo files.
+16:40:10.628253   Completed listing cosmo files.
+16:40:10.628415   Extracting T_2M from COSMO files.
+16:40:10.628477      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:40:10.659866      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:40:10.684094      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:40:10.707464      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:40:10.729503      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:40:10.756396      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:40:10.780686      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:40:10.803178      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:40:10.828001      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:40:10.859003   Completed extracting T_2M from COSMO files.
+16:43:12.333535   Copying simulation input files.
+16:43:12.335091   Completed copying simulation restart file.
+16:43:12.335167   Copying simulation restart file.
+16:43:12.336704      No restart file for 20210101 using restart file from 20201227
+16:43:12.360780   Completed copying simulation restart file.
+16:43:12.361055   Listing cosmo files.
+16:43:12.364825   Completed listing cosmo files.
+16:43:12.365286   Extracting T_2M from COSMO files.
+16:43:12.365373      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:43:12.397631      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:43:12.422144      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:43:12.445476      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:43:12.470874      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:43:12.500193      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:43:12.529134      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:43:12.555942      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:43:12.584085      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:43:12.614785   Completed extracting T_2M from COSMO files.
+16:43:39.211357   Copying simulation input files.
+16:43:39.213889   Completed copying simulation restart file.
+16:43:39.214096   Copying simulation restart file.
+16:43:39.216487      No restart file for 20210101 using restart file from 20201227
+16:43:39.240795   Completed copying simulation restart file.
+16:43:39.240955   Listing cosmo files.
+16:43:39.243209   Completed listing cosmo files.
+16:43:39.243400   Extracting T_2M from COSMO files.
+16:43:39.243472      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:43:39.275002      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:43:39.300170      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:43:39.324618      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:43:39.347426      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:43:39.369854      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:43:39.391676      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:43:39.413355      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:43:39.440669      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:43:39.473904   Completed extracting T_2M from COSMO files.
+16:44:57.482721   Copying simulation input files.
+16:44:57.484270   Completed copying simulation restart file.
+16:44:57.484343   Copying simulation restart file.
+16:44:57.485897      No restart file for 20210101 using restart file from 20201227
+16:44:57.507002   Completed copying simulation restart file.
+16:44:57.507163   Listing cosmo files.
+16:44:57.509439   Completed listing cosmo files.
+16:44:57.509649   Extracting T_2M from COSMO files.
+16:44:57.509723      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:44:57.545663      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:44:57.572394      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:44:57.598066      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:44:57.625671      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:44:57.659228      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:44:57.692659      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:44:57.722948      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:44:57.749301      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:44:57.781557   Completed extracting T_2M from COSMO files.
+16:46:14.521770   Copying simulation input files.
+16:46:14.523302   Completed copying simulation restart file.
+16:46:14.523374   Copying simulation restart file.
+16:46:14.524852      No restart file for 20210101 using restart file from 20201227
+16:46:14.548553   Completed copying simulation restart file.
+16:46:14.548713   Listing cosmo files.
+16:46:14.550808   Completed listing cosmo files.
+16:46:14.550985   Extracting T_2M from COSMO files.
+16:46:14.551055      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+16:46:14.579497      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+16:46:14.601646      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+16:46:14.622345      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+16:46:14.642355      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+16:46:14.661918      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+16:46:14.683575      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+16:46:14.704728      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+16:46:14.724882      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+16:46:14.753919   Completed extracting T_2M from COSMO files.
+17:03:19.441808   Copying simulation input files.
+17:03:19.443267   Completed copying simulation restart file.
+17:03:19.443339   Copying simulation restart file.
+17:03:19.444742      No restart file for 20210101 using restart file from 20201227
+17:03:19.463400   Completed copying simulation restart file.
+17:03:19.463526   Listing cosmo files.
+17:03:19.465532   Completed listing cosmo files.
+17:03:19.465704   Extracting T_2M from COSMO files.
+17:03:19.465769      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:03:19.495181      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:03:19.519633      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:03:19.542297      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:03:19.564477      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:03:19.585278      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:03:19.605089      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:03:19.625386      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:03:19.644992      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:03:19.676425   Completed extracting T_2M from COSMO files.
+17:03:31.869684   Copying simulation input files.
+17:03:31.871352   Completed copying simulation restart file.
+17:03:31.871445   Copying simulation restart file.
+17:03:31.873139      No restart file for 20210101 using restart file from 20201227
+17:03:31.893761   Completed copying simulation restart file.
+17:03:31.893890   Listing cosmo files.
+17:03:31.895960   Completed listing cosmo files.
+17:03:31.896132   Extracting T_2M from COSMO files.
+17:03:31.896199      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:03:31.927174      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:03:31.959969      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:03:31.996075      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:03:32.029260      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:03:32.059048      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:03:32.090399      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:03:32.121528      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:03:32.151315      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:03:32.183164   Completed extracting T_2M from COSMO files.
+17:04:01.142815   Copying simulation input files.
+17:04:01.144324   Completed copying simulation restart file.
+17:04:01.144392   Copying simulation restart file.
+17:04:01.145872      No restart file for 20210101 using restart file from 20201227
+17:04:01.169628   Completed copying simulation restart file.
+17:04:01.169773   Listing cosmo files.
+17:04:01.171708   Completed listing cosmo files.
+17:04:01.171867   Extracting T_2M from COSMO files.
+17:04:01.171928      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:04:01.201998      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:04:01.226202      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:04:01.249619      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:04:01.271954      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:04:01.299531      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:04:01.323120      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:04:01.344312      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:04:01.371639      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:04:01.401156   Completed extracting T_2M from COSMO files.
+17:05:29.256865   Copying simulation input files.
+17:05:29.258417   Completed copying simulation restart file.
+17:05:29.258484   Copying simulation restart file.
+17:05:29.259856      No restart file for 20210101 using restart file from 20201227
+17:05:29.277840   Completed copying simulation restart file.
+17:05:29.277973   Listing cosmo files.
+17:05:29.280045   Completed listing cosmo files.
+17:05:29.280221   Extracting T_2M from COSMO files.
+17:05:29.280292      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:05:29.308231      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:05:29.338358      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:05:29.363547      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:05:29.385312      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:05:29.406811      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:05:29.426321      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:05:29.446520      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:05:29.466878      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:05:29.496159   Completed extracting T_2M from COSMO files.
+17:09:28.842014   Copying simulation input files.
+17:09:28.843533   Completed copying simulation restart file.
+17:09:28.843600   Copying simulation restart file.
+17:09:28.845039      No restart file for 20210101 using restart file from 20201227
+17:09:28.863406   Completed copying simulation restart file.
+17:09:28.863521   Listing cosmo files.
+17:09:28.865668   Completed listing cosmo files.
+17:09:28.865860   Extracting T_2M from COSMO files.
+17:09:28.865949      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:09:28.893950      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:09:28.917980      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:09:28.944911      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:09:28.968398      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:09:28.990732      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:09:29.014448      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:09:29.039622      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:09:29.066199      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:09:29.095366   Completed extracting T_2M from COSMO files.
+17:09:37.179891   Copying simulation input files.
+17:09:37.181519   Completed copying simulation restart file.
+17:09:37.181595   Copying simulation restart file.
+17:09:37.183084      No restart file for 20210101 using restart file from 20201227
+17:09:37.202447   Completed copying simulation restart file.
+17:09:37.202563   Listing cosmo files.
+17:09:37.204692   Completed listing cosmo files.
+17:09:37.204933   Extracting T_2M from COSMO files.
+17:09:37.205006      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:09:37.234300      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:09:37.259266      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:09:37.284413      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:09:37.307817      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:09:37.331496      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:09:37.353660      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:09:37.375559      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:09:37.398151      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:09:37.427974   Completed extracting T_2M from COSMO files.
+17:09:51.388715   Copying simulation input files.
+17:09:51.390238   Completed copying simulation restart file.
+17:09:51.390306   Copying simulation restart file.
+17:09:51.391663      No restart file for 20210101 using restart file from 20201227
+17:09:51.414798   Completed copying simulation restart file.
+17:09:51.414911   Listing cosmo files.
+17:09:51.416944   Completed listing cosmo files.
+17:09:51.417106   Extracting T_2M from COSMO files.
+17:09:51.417170      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:09:51.445225      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:09:51.470280      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:09:51.510209      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:09:51.539325      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:09:51.565179      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:09:51.586954      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:09:51.610993      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:09:51.636258      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:09:51.665478   Completed extracting T_2M from COSMO files.
+17:10:12.679583   Copying simulation input files.
+17:10:12.681235   Completed copying simulation restart file.
+17:10:12.681346   Copying simulation restart file.
+17:10:12.683054      No restart file for 20210101 using restart file from 20201227
+17:10:12.701479   Completed copying simulation restart file.
+17:10:12.701593   Listing cosmo files.
+17:10:12.703613   Completed listing cosmo files.
+17:10:12.703816   Extracting T_2M from COSMO files.
+17:10:12.703883      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:10:12.732533      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:10:12.757942      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:10:12.781947      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:10:12.804416      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:10:12.827115      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:10:12.848320      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:10:12.873546      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:10:12.898050      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:10:12.928756   Completed extracting T_2M from COSMO files.
+17:21:20.190922   Copying simulation input files.
+17:21:20.192500   Completed copying simulation restart file.
+17:21:20.192636   Copying simulation restart file.
+17:21:20.194594      No restart file for 20210101 using restart file from 20201227
+17:21:20.214287   Completed copying simulation restart file.
+17:21:20.214398   Listing cosmo files.
+17:21:20.216442   Completed listing cosmo files.
+17:21:20.216606   Extracting T_2M from COSMO files.
+17:21:20.216669      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:21:20.246035      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:21:20.270830      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:21:20.297069      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:21:20.320732      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:21:20.343451      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:21:20.365143      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:21:20.386672      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:21:20.413813      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:21:20.443640   Completed extracting T_2M from COSMO files.
+17:21:20.443931   Creating meteo files
+17:21:20.443998      Creating the grid
+17:21:20.470563      Create the output files and write the header
+17:21:20.470977      Extracting data from files.
+17:21:20.471033         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:21:21.545344         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:21:22.480254         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:21:23.394379         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:21:24.342357         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:21:25.313383         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:21:26.291060         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:21:27.389356         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:21:28.507037         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:21:29.650101   Completed creating meteo files
+17:24:25.950927   Copying simulation input files.
+17:24:25.952328   Completed copying simulation restart file.
+17:24:25.952399   Copying simulation restart file.
+17:24:25.953751      No restart file for 20210101 using restart file from 20201227
+17:24:25.970471   Completed copying simulation restart file.
+17:24:25.970590   Listing cosmo files.
+17:24:25.972808   Completed listing cosmo files.
+17:24:25.972996   Extracting T_2M from COSMO files.
+17:24:25.973065      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:24:26.001038      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:24:26.024871      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:24:26.047796      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:24:26.069790      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:24:26.091943      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:24:26.117047      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:24:26.143465      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:24:26.166776      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:24:26.201772   Completed extracting T_2M from COSMO files.
+17:24:26.202077   Creating meteo files
+17:24:26.202159      Creating the grid
+17:24:26.231393      Create the output files and write the header
+17:24:26.231862      Extracting data from files.
+17:24:26.231923         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:24:26.699614         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:24:27.103735         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:24:27.466864         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:24:27.806917         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:24:28.097570         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:24:28.376213         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:24:28.688839         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:24:28.959013         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:24:29.238259   Completed creating meteo files
+17:24:41.146406   Copying simulation input files.
+17:24:41.148013   Completed copying simulation restart file.
+17:24:41.148095   Copying simulation restart file.
+17:24:41.149529      No restart file for 20210101 using restart file from 20201227
+17:24:41.169296   Completed copying simulation restart file.
+17:24:41.169429   Listing cosmo files.
+17:24:41.171788   Completed listing cosmo files.
+17:24:41.171996   Extracting T_2M from COSMO files.
+17:24:41.172076      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:24:41.207529      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:24:41.240030      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:24:41.270273      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:24:41.294962      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:24:41.318387      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:24:41.340420      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:24:41.364192      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:24:41.389116      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:24:41.425043   Completed extracting T_2M from COSMO files.
+17:24:41.425367   Creating meteo files
+17:24:41.425458      Creating the grid
+17:24:41.460136      Create the output files and write the header
+17:24:41.461100      Extracting data from files.
+17:24:41.461269         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:24:41.770476         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:24:42.007122         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:24:42.241057         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:24:42.500103         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:24:42.775970         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:24:43.079235         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:24:43.322324         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:24:43.582675         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:24:43.873298   Completed creating meteo files
+17:25:29.996533   Copying simulation input files.
+17:25:29.999360   Completed copying simulation restart file.
+17:25:29.999473   Copying simulation restart file.
+17:25:30.001036      No restart file for 20210101 using restart file from 20201227
+17:25:30.023224   Completed copying simulation restart file.
+17:25:30.023366   Listing cosmo files.
+17:25:30.025868   Completed listing cosmo files.
+17:25:30.026100   Extracting T_2M from COSMO files.
+17:25:30.026190      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:25:30.061979      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:25:30.092280      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:25:30.120059      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:25:30.145928      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:25:30.175536      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:25:30.208153      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:25:30.239671      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:25:30.266353      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:25:30.299113   Completed extracting T_2M from COSMO files.
+17:25:30.299400   Creating meteo files
+17:25:30.299473      Creating the grid
+17:25:30.332189      Create the output files and write the header
+17:25:30.332697      Extracting data from files.
+17:25:30.332768         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:25:30.634850         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:25:30.934522         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:25:31.173554         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:25:31.441399         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:25:31.675253         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:25:31.927438         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:25:32.204818         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:25:32.464734         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:25:32.786727   Completed creating meteo files
+17:30:38.563735   Copying simulation input files.
+17:30:38.565248   Completed copying simulation restart file.
+17:30:38.565318   Copying simulation restart file.
+17:30:38.566696      No restart file for 20210101 using restart file from 20201227
+17:30:38.589470   Completed copying simulation restart file.
+17:30:38.589624   Listing cosmo files.
+17:30:38.592342   Completed listing cosmo files.
+17:30:38.592618   Extracting T_2M from COSMO files.
+17:30:38.592700      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:30:38.621930      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:30:38.646111      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:30:38.671461      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:30:38.694746      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:30:38.717168      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:30:38.743659      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:30:38.768995      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:30:38.801893      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:30:38.845352   Completed extracting T_2M from COSMO files.
+17:30:38.845682   Creating meteo files
+17:30:38.845774      Creating the grid
+17:30:38.882921      Create the output files and write the header
+17:30:38.883412      Extracting data from files.
+17:30:38.883479         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:30:39.284080         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:30:39.542828         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:30:39.815133         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:30:40.101391         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:30:40.377415         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:30:40.693447         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:30:40.973590         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:30:41.215113         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:30:41.451951   Completed creating meteo files
+17:31:38.573848   Copying simulation input files.
+17:31:38.575577   Completed copying simulation restart file.
+17:31:38.575664   Copying simulation restart file.
+17:31:38.577423      No restart file for 20210101 using restart file from 20201227
+17:31:38.598758   Completed copying simulation restart file.
+17:31:38.598899   Listing cosmo files.
+17:31:38.601327   Completed listing cosmo files.
+17:31:38.601545   Extracting T_2M from COSMO files.
+17:31:38.601624      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:31:38.637900      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:31:38.674556      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:31:38.711944      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:31:38.745385      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:31:38.774132      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:31:38.804841      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:31:38.837670      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:31:38.865715      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:31:38.897753   Completed extracting T_2M from COSMO files.
+17:31:38.898021   Creating meteo files
+17:31:38.898093      Creating the grid
+17:31:38.922885      Create the output files and write the header
+17:31:38.923327      Extracting data from files.
+17:31:38.923384         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:31:39.262546         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:31:39.563060         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:31:39.782116         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:31:40.191716         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:31:40.462090         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:31:40.695756         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:31:40.917996         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:31:41.183799         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:31:41.407817   Completed creating meteo files
+17:32:22.227698   Copying simulation input files.
+17:32:22.229219   Completed copying simulation restart file.
+17:32:22.229303   Copying simulation restart file.
+17:32:22.230893      No restart file for 20210101 using restart file from 20201227
+17:32:22.249029   Completed copying simulation restart file.
+17:32:22.249149   Listing cosmo files.
+17:32:22.251223   Completed listing cosmo files.
+17:32:22.251400   Extracting T_2M from COSMO files.
+17:32:22.251468      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:32:22.282210      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:32:22.309114      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:32:22.335913      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:32:22.361505      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:32:22.386707      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:32:22.412987      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:32:22.443525      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:32:22.477318      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:32:22.512328   Completed extracting T_2M from COSMO files.
+17:32:22.512628   Creating meteo files
+17:32:22.512709      Creating the grid
+17:32:22.540540      Create the output files and write the header
+17:32:22.541103      Extracting data from files.
+17:32:22.541172         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:32:22.837202         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:32:23.065225         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:32:23.282492         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:32:23.536484         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:32:23.750007         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:32:23.975295         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:32:24.192398         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:32:24.422490         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:32:24.633967   Completed creating meteo files
+17:35:34.572417   Copying simulation input files.
+17:35:34.573982   Completed copying simulation restart file.
+17:35:34.574053   Copying simulation restart file.
+17:35:34.575436      No restart file for 20210101 using restart file from 20201227
+17:35:34.594202   Completed copying simulation restart file.
+17:35:34.594317   Listing cosmo files.
+17:35:34.596312   Completed listing cosmo files.
+17:35:34.596478   Extracting T_2M from COSMO files.
+17:35:34.596542      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:35:34.626214      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:35:34.651701      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:35:34.684828      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:35:34.713099      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:35:34.741050      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:35:34.766339      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:35:34.793122      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:35:34.818762      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:35:34.848836   Completed extracting T_2M from COSMO files.
+17:35:34.849170   Creating meteo files
+17:35:34.849261      Creating the grid
+17:35:34.873490      Create the output meteo files and write the header
+17:35:34.873907      Extracting data from files.
+17:35:34.873958         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:35:35.165433         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:35:35.437420         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:35:35.691316         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:35:35.953145         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:35:36.217464         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:35:36.472625         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:35:36.720997         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:35:36.976246         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:35:37.231673   Completed creating meteo files
+17:37:59.453699   Copying simulation input files.
+17:37:59.455222   Completed copying simulation restart file.
+17:37:59.455294   Copying simulation restart file.
+17:37:59.456689      No restart file for 20210101 using restart file from 20201227
+17:37:59.483109   Completed copying simulation restart file.
+17:37:59.483260   Listing cosmo files.
+17:37:59.485685   Completed listing cosmo files.
+17:37:59.485893   Extracting T_2M from COSMO files.
+17:37:59.485967      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:37:59.522249      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:37:59.556960      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:37:59.589553      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:37:59.616594      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:37:59.642987      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:37:59.670235      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:37:59.718972      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:37:59.768497      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:37:59.820321   Completed extracting T_2M from COSMO files.
+17:37:59.820736   Creating meteo files
+17:37:59.820831      Creating the grid
+17:37:59.862866      Create the output meteo files and write the header
+17:37:59.863597      Extracting data from files.
+17:37:59.863676         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:38:00.405260         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:38:00.859879         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:38:01.195816         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:38:01.750200         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:38:02.317687         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:38:02.664251         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:38:02.962434         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:38:03.287172         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:38:03.727096   Completed creating meteo files
+17:42:15.703324   Copying simulation input files.
+17:42:15.704872   Completed copying simulation restart file.
+17:42:15.704957   Copying simulation restart file.
+17:42:15.706299      No restart file for 20210101 using restart file from 20201227
+17:42:15.729669   Completed copying simulation restart file.
+17:42:15.729800   Listing cosmo files.
+17:42:15.731951   Completed listing cosmo files.
+17:42:15.732133   Extracting T_2M from COSMO files.
+17:42:15.732202      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:42:15.760251      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:42:15.782491      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:42:15.808010      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:42:15.831995      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:42:15.859166      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:42:15.885175      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:42:15.915337      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:42:15.950285      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:42:15.987425   Completed extracting T_2M from COSMO files.
+17:42:15.987786   Creating meteo files
+17:42:15.987866      Creating the grid
+17:42:16.021108      Create the output meteo files and write the header
+17:42:16.021732      Extracting data from files.
+17:42:16.021793         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:42:16.354297         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:42:16.634215         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:42:16.924258         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:42:17.195360         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:42:17.536651         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:42:17.916522         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:42:18.182110         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:42:18.424421         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:42:18.694038   Completed creating meteo files
+17:47:23.749540   Copying simulation input files.
+17:47:23.751692   Completed copying simulation restart file.
+17:47:23.751790   Copying simulation restart file.
+17:47:23.753503      No restart file for 20210101 using restart file from 20201227
+17:47:23.778021   Completed copying simulation restart file.
+17:47:23.778136   Listing cosmo files.
+17:47:23.780169   Completed listing cosmo files.
+17:47:23.780336   Extracting T_2M from COSMO files.
+17:47:23.780400      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:47:23.808972      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:47:23.831523      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:47:23.852751      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:47:23.872568      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:47:23.893009      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:47:23.912853      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:47:23.933313      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:47:23.953292      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:47:23.983800   Completed extracting T_2M from COSMO files.
+17:47:23.984126   Creating meteo files
+17:47:23.984199      Creating the grid
+17:47:24.006158      Create the output meteo files and write the header
+17:47:24.006617      Extracting data from files.
+17:47:24.006670         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:49:24.225280   Copying simulation input files.
+17:49:24.226984   Completed copying simulation restart file.
+17:49:24.227064   Copying simulation restart file.
+17:49:24.228669      No restart file for 20210101 using restart file from 20201227
+17:49:24.252131   Completed copying simulation restart file.
+17:49:24.252242   Listing cosmo files.
+17:49:24.254300   Completed listing cosmo files.
+17:49:24.254474   Extracting T_2M from COSMO files.
+17:49:24.254538      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:49:24.283663      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:49:24.310477      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:49:24.339953      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:49:24.374556      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:49:24.401291      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:49:24.427728      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:49:24.457218      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:49:24.480684      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:49:24.505541   Completed extracting T_2M from COSMO files.
+17:49:24.505840   Creating meteo files
+17:49:24.505901      Creating the grid
+17:49:24.525600      Create the output meteo files and write the header
+17:49:24.525961      Extracting data from files.
+17:49:24.526006         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+18:12:50.322873   Copying simulation input files.
+18:12:50.324337   Completed copying simulation restart file.
+18:12:50.324401   Copying simulation restart file.
+18:12:50.325707      No restart file for 20210101 using restart file from 20201227
+18:12:50.353927   Completed copying simulation restart file.
+18:12:50.354058   Listing cosmo files.
+18:12:50.356971   Completed listing cosmo files.
+18:12:50.357275   Extracting T_2M from COSMO files.
+18:12:50.357353      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+18:12:50.392477      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+18:12:50.418190      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+18:12:50.443832      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+18:12:50.467164      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+18:12:50.491382      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+18:12:50.514482      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+18:12:50.540164      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+18:12:50.567240      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+18:12:50.599995   Completed extracting T_2M from COSMO files.
+18:12:50.600309   Creating meteo files
+18:12:50.600381      Creating the grid
+18:12:50.624188      Create the output meteo files and write the header
+18:12:50.624601      Extracting data from files.
+18:12:50.624654         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+18:14:08.854539   Copying simulation input files.
+18:14:08.855995   Completed copying simulation restart file.
+18:14:08.856063   Copying simulation restart file.
+18:14:08.857357      No restart file for 20210101 using restart file from 20201227
+18:14:08.875154   Completed copying simulation restart file.
+18:14:08.875293   Listing cosmo files.
+18:14:08.877561   Completed listing cosmo files.
+18:14:08.877739   Extracting T_2M from COSMO files.
+18:14:08.877807      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+18:14:08.903949      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+18:14:08.925030      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+18:14:08.945383      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+18:14:08.965673      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+18:14:08.988499      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+18:14:09.010855      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+18:14:09.033061      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+18:14:09.053160      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+18:14:09.081711   Completed extracting T_2M from COSMO files.
+18:14:09.081978   Creating meteo files
+18:14:09.082043      Creating the grid
+18:14:09.103036      Create the output meteo files and write the header
+18:14:09.103413      Extracting data from files.
+18:14:09.103460         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+18:14:09.103825            Processing parameter CLCT
+18:14:45.669485            Processing parameter PMSL
+18:15:22.859401            Processing parameter RELHUM_2M
+18:16:00.673447            Processing parameter GLOB
+18:16:38.899904            Processing parameter T_2M
+18:17:16.554254            Processing parameter U
+18:17:53.408116            Processing parameter V
+18:18:32.179270         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+18:18:32.179762            Processing parameter CLCT
+18:19:11.161050            Processing parameter PMSL
+18:19:49.522585            Processing parameter RELHUM_2M
+18:20:25.843939            Processing parameter GLOB
+18:21:02.217079            Processing parameter T_2M
