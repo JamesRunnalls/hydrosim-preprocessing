@@ -53,7 +53,7 @@ def update_control_file(folder, start_date, end_date, origin=datetime(2008, 3, 1
     with open(os.path.join(folder, "Simulation_Web.mdf"), 'r') as f:
         lines = f.readlines()
     start = "{:.7e}".format((start_date - origin).total_seconds() / 60)
-    end = "{:.7e}".format(((end_date - origin).total_seconds() / 60)-10)
+    end = "{:.7e}".format(((end_date - origin).total_seconds() / 60)-period)
 
     for i in range(len(lines)):
         if "Tstart" in lines[i]:
@@ -143,8 +143,8 @@ def create_meteo_files(dir, files, grid, origin=datetime(2008, 3, 1)):
         {"filename": 'RelativeHumidity.amr', "parameter": "RELHUM_2M", "quantity": "relative_humidity", "unit": "%", "adjust": 0},
         {"filename": 'ShortwaveFlux.ams', "parameter": "GLOB", "quantity": "sw_radiation_flux", "unit": "W/m2", "adjust": 0},
         {"filename": 'Temperature.amt', "parameter": "T_2M", "quantity": "air_temperature", "unit": "Celsius", "adjust": -273.15},
-        {"filename": 'WindU.amu', "parameter": "U", "quantity": "x_wind", "unit": "m s-", "adjust": 0},
-        {"filename": 'WindV.amv', "parameter": "V", "quantity": "y_wind", "unit": "m s-", "adjust": 0},
+        {"filename": 'WindU.amu', "parameter": "U", "quantity": "x_wind", "unit": "m s-1", "adjust": 0},
+        {"filename": 'WindV.amv', "parameter": "V", "quantity": "y_wind", "unit": "m s-1", "adjust": 0},
     ]
 
     log("Read latitude and longitude", 1)
@@ -379,7 +379,7 @@ def write_river_data_to_file(parameters, folder, filename="RiversOperationsQuant
         f.write("interpolation        'linear'\n")
         f.write("parameter            'time                '                     unit '[min]'\n")
         f.write("parameter            'flux/discharge rate '                     unit '[m3/s]'\n")
-        f.write("parameter            'Temperature         '                     unit '[�C]'\n")
+        f.write("parameter            'Temperature         '                     unit '[°C]'\n")
         f.write("parameter            'flow magnitude      '                     unit '[m/s]'\n")
         f.write("parameter            'flow direction      '                     unit '[deg]'\n")
         f.write("records-in-table     {}\n ".format(str(len(inflow["data"]))))
@@ -400,7 +400,7 @@ def write_river_data_to_file(parameters, folder, filename="RiversOperationsQuant
     f.write("interpolation        'linear'\n")
     f.write("parameter            'time                '                     unit '[min]'\n")
     f.write("parameter            'flux/discharge rate '                     unit '[m3/s]'\n")
-    f.write("parameter            'Temperature         '                     unit '[�C]'\n")
+    f.write("parameter            'Temperature         '                     unit '[°C]'\n")
     f.write("records-in-table     {}\n ".format(str(len(parameters["outflow"]["data"]))))
 
     df = parameters["outflow"]["data"]
