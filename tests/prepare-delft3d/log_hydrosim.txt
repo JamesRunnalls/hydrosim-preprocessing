@@ -3898,3 +3898,152 @@
 17:13:26.333830   Completed estimating river temperatures
 17:13:26.333895   Writing river data to file.
 17:13:26.361035   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+17:37:50.989929   Copying simulation input files.
+17:37:50.991348   Completed copying simulation restart file.
+17:37:50.991422   Copying simulation restart file.
+17:37:50.993194      No restart file for 20210101 using restart file from 20201227
+17:37:51.023579   Completed copying simulation restart file.
+17:37:51.024151   Listing cosmo files.
+17:37:51.027904   Completed listing cosmo files.
+17:37:51.028090   Getting raw river data.
+17:37:51.271470   Completed getting raw river data.
+17:37:51.271663   Cleaning raw river data (interpolate missing values and smooth).
+17:37:51.642430   Completed cleaning raw river data.
+17:37:51.642554   Calculating flow balance to assign flow rates to ungauged rivers
+17:37:51.642778      TO DO! - Add water level to flow balance computation.
+17:37:51.646926      TO DO! - Ensure flow balance after removing negative values.
+17:37:51.646988   Completed calculating flow balance.
+17:37:51.647034   Estimating river temperatures
+17:37:51.647075   Extracting T_2M from COSMO files.
+17:37:51.647114      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:37:51.730678      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:37:51.794102      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:37:51.849550      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:37:51.902157      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:37:51.954229      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:37:52.010688      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:37:52.078795      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:37:52.141717      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:37:52.201353   Completed extracting T_2M from COSMO files.
+17:37:52.248209      TO DO! - Convert from air temperature to water temperature.
+17:37:52.297418      TO DO! - Convert from air temperature to water temperature.
+17:37:52.356333      TO DO! - Convert from air temperature to water temperature.
+17:37:52.356540   Completed estimating river temperatures
+17:37:52.356632   Writing river data to file.
+17:37:52.398881   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+17:38:16.028828   Copying simulation input files.
+17:38:16.030119   Completed copying simulation restart file.
+17:38:16.030170   Copying simulation restart file.
+17:38:16.031664      No restart file for 20210101 using restart file from 20201227
+17:38:16.087155   Completed copying simulation restart file.
+17:38:16.087648   Listing cosmo files.
+17:38:16.089590   Completed listing cosmo files.
+17:38:16.089750   Getting raw river data.
+17:38:16.351513   Completed getting raw river data.
+17:38:16.351703   Cleaning raw river data (interpolate missing values and smooth).
+17:38:16.686286   Completed cleaning raw river data.
+17:38:16.686435   Calculating flow balance to assign flow rates to ungauged rivers
+17:38:16.686728      TO DO! - Add water level to flow balance computation.
+17:38:16.692940      TO DO! - Ensure flow balance after removing negative values.
+17:38:16.693044   Completed calculating flow balance.
+17:38:16.693102   Estimating river temperatures
+17:38:16.693154   Extracting T_2M from COSMO files.
+17:38:16.693202      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:38:16.720281      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:38:16.740486      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:38:16.760126      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:38:16.779537      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:38:16.799050      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:38:16.818457      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:38:16.837666      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:38:16.856868      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:38:16.879593   Completed extracting T_2M from COSMO files.
+17:38:16.922245      TO DO! - Convert from air temperature to water temperature.
+17:38:16.966093      TO DO! - Convert from air temperature to water temperature.
+17:38:17.010494      TO DO! - Convert from air temperature to water temperature.
+17:38:17.010607   Completed estimating river temperatures
+17:38:17.010818   Writing river data to file.
+17:38:17.037643   Completed writing river data to file.
+17:38:17.037730   Creating meteo files
+17:38:17.037788      Read latitude and longitude
+17:38:17.039847      Reduce size of MeteoSwiss dataset
+17:38:17.072310      Creating the grid
+17:38:17.072506      Create the output meteo files and write the header
+17:38:17.072855      Extracting data from files.
+17:38:17.072895         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:38:17.073243            Processing parameter CLCT
+17:38:18.015391            Processing parameter PMSL
+17:38:18.888731            Processing parameter RELHUM_2M
+17:38:19.768594            Processing parameter GLOB
+17:38:20.603709            Processing parameter T_2M
+17:38:21.466523            Processing parameter U
+17:38:22.638779            Processing parameter V
+17:38:23.774871         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:38:23.775277            Processing parameter CLCT
+17:38:24.643570            Processing parameter PMSL
+17:38:25.503173            Processing parameter RELHUM_2M
+17:38:26.378027            Processing parameter GLOB
+17:38:27.214750            Processing parameter T_2M
+17:38:28.080787            Processing parameter U
+17:38:29.185424            Processing parameter V
+17:38:30.263692         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:38:30.264050            Processing parameter CLCT
+17:38:31.179413            Processing parameter PMSL
+17:38:32.170584            Processing parameter RELHUM_2M
+17:38:33.196471            Processing parameter GLOB
+17:38:34.159510            Processing parameter T_2M
+17:38:35.141395            Processing parameter U
+17:38:36.341108            Processing parameter V
+17:38:37.515257         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:38:37.515690            Processing parameter CLCT
+17:38:38.498867            Processing parameter PMSL
+17:38:39.498041            Processing parameter RELHUM_2M
+17:38:40.494377            Processing parameter GLOB
+17:38:41.452632            Processing parameter T_2M
+17:38:42.436680            Processing parameter U
+17:38:43.631892            Processing parameter V
+17:38:44.828497         Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:38:44.828918            Processing parameter CLCT
+17:38:45.815358            Processing parameter PMSL
+17:38:46.802366            Processing parameter RELHUM_2M
+17:38:47.794778            Processing parameter GLOB
+17:38:48.753332            Processing parameter T_2M
+17:38:49.742373            Processing parameter U
+17:38:50.939547            Processing parameter V
+17:38:52.114796         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:38:52.115252            Processing parameter CLCT
+17:38:53.105093            Processing parameter PMSL
+17:38:54.091388            Processing parameter RELHUM_2M
+17:38:55.088093            Processing parameter GLOB
+17:38:56.051449            Processing parameter T_2M
+17:38:57.038356            Processing parameter U
+17:38:58.231039            Processing parameter V
+17:38:59.393857         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:38:59.394284            Processing parameter CLCT
+17:39:00.390248            Processing parameter PMSL
+17:39:01.376436            Processing parameter RELHUM_2M
+17:39:02.379310            Processing parameter GLOB
+17:39:03.340607            Processing parameter T_2M
+17:39:04.325799            Processing parameter U
+17:39:05.553998            Processing parameter V
+17:39:06.752370         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:39:06.752810            Processing parameter CLCT
+17:39:07.741689            Processing parameter PMSL
+17:39:08.728005            Processing parameter RELHUM_2M
+17:39:09.720659            Processing parameter GLOB
+17:39:10.683706            Processing parameter T_2M
+17:39:11.671898            Processing parameter U
+17:39:12.897237            Processing parameter V
+17:39:14.096516         Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:39:14.096943            Processing parameter CLCT
+17:39:15.084030            Processing parameter PMSL
+17:39:16.070694            Processing parameter RELHUM_2M
+17:39:17.085168            Processing parameter GLOB
+17:39:18.051139            Processing parameter T_2M
+17:39:19.030795            Processing parameter U
+17:39:20.261110            Processing parameter V
+17:39:21.471219   Completed creating meteo files
