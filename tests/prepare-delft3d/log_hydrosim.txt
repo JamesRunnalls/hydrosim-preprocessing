@@ -1452,3 +1452,1107 @@
 12:16:32.134694      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
 12:16:32.168148      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
 12:16:32.199262   Completed extracting T_2M from COSMO files.
+12:39:41.770503   Copying simulation input files.
+12:39:41.772021   Completed copying simulation restart file.
+12:39:41.772104   Copying simulation restart file.
+12:39:41.773736      No restart file for 20210101 using restart file from 20201227
+12:39:41.795894   Completed copying simulation restart file.
+12:39:41.796048   Listing cosmo files.
+12:39:41.798363   Completed listing cosmo files.
+13:07:45.448436   Copying simulation input files.
+13:07:45.451402   Completed copying simulation restart file.
+13:07:45.451517   Copying simulation restart file.
+13:07:45.453991      No restart file for 20210101 using restart file from 20201227
+13:07:45.479473   Completed copying simulation restart file.
+13:07:45.479602   Listing cosmo files.
+13:07:45.483391   Completed listing cosmo files.
+13:08:01.446528   Copying simulation input files.
+13:08:01.449150   Completed copying simulation restart file.
+13:08:01.449267   Copying simulation restart file.
+13:08:01.451559      No restart file for 20210101 using restart file from 20201227
+13:08:01.483765   Completed copying simulation restart file.
+13:08:01.483932   Listing cosmo files.
+13:08:01.487443   Completed listing cosmo files.
+13:48:19.087950   Copying simulation input files.
+13:48:19.089580   Completed copying simulation restart file.
+13:48:19.089662   Copying simulation restart file.
+13:48:19.091232      No restart file for 20210101 using restart file from 20201227
+13:48:19.112504   Completed copying simulation restart file.
+13:48:19.112622   Listing cosmo files.
+13:48:19.114991   Completed listing cosmo files.
+13:49:26.319680   Copying simulation input files.
+13:49:26.321534   Completed copying simulation restart file.
+13:49:26.321630   Copying simulation restart file.
+13:49:26.323401      No restart file for 20210101 using restart file from 20201227
+13:49:26.356842   Completed copying simulation restart file.
+13:49:26.356975   Listing cosmo files.
+13:49:26.362346   Completed listing cosmo files.
+13:53:10.558329   Copying simulation input files.
+13:53:10.559861   Completed copying simulation restart file.
+13:53:10.559935   Copying simulation restart file.
+13:53:10.561482      No restart file for 20210101 using restart file from 20201227
+13:53:10.580316   Completed copying simulation restart file.
+13:53:10.580450   Listing cosmo files.
+13:53:10.582573   Completed listing cosmo files.
+13:53:23.140566   Copying simulation input files.
+13:53:23.142148   Completed copying simulation restart file.
+13:53:23.142223   Copying simulation restart file.
+13:53:23.143816      No restart file for 20210101 using restart file from 20201227
+13:53:23.177281   Completed copying simulation restart file.
+13:53:23.177444   Listing cosmo files.
+13:53:23.181004   Completed listing cosmo files.
+13:53:33.954396   Copying simulation input files.
+13:53:33.956196   Completed copying simulation restart file.
+13:53:33.956278   Copying simulation restart file.
+13:53:33.957992      No restart file for 20210101 using restart file from 20201227
+13:53:33.985422   Completed copying simulation restart file.
+13:53:33.985582   Listing cosmo files.
+13:53:33.988709   Completed listing cosmo files.
+13:53:48.337746   Copying simulation input files.
+13:53:48.339664   Completed copying simulation restart file.
+13:53:48.339764   Copying simulation restart file.
+13:53:48.342187      No restart file for 20210101 using restart file from 20201227
+13:53:48.373488   Completed copying simulation restart file.
+13:53:48.373624   Listing cosmo files.
+13:53:48.376871   Completed listing cosmo files.
+13:53:59.452722   Copying simulation input files.
+13:53:59.454278   Completed copying simulation restart file.
+13:53:59.454367   Copying simulation restart file.
+13:53:59.455942      No restart file for 20210101 using restart file from 20201227
+13:53:59.475033   Completed copying simulation restart file.
+13:53:59.475157   Listing cosmo files.
+13:53:59.477527   Completed listing cosmo files.
+13:54:08.471138   Copying simulation input files.
+13:54:08.473234   Completed copying simulation restart file.
+13:54:08.473341   Copying simulation restart file.
+13:54:08.475120      No restart file for 20210101 using restart file from 20201227
+13:54:08.503692   Completed copying simulation restart file.
+13:54:08.503855   Listing cosmo files.
+13:54:08.506870   Completed listing cosmo files.
+13:54:24.656363   Copying simulation input files.
+13:54:24.657933   Completed copying simulation restart file.
+13:54:24.658010   Copying simulation restart file.
+13:54:24.659511      No restart file for 20210101 using restart file from 20201227
+13:54:24.678820   Completed copying simulation restart file.
+13:54:24.678949   Listing cosmo files.
+13:54:24.681135   Completed listing cosmo files.
+13:54:39.682260   Copying simulation input files.
+13:54:39.684125   Completed copying simulation restart file.
+13:54:39.684220   Copying simulation restart file.
+13:54:39.686992      No restart file for 20210101 using restart file from 20201227
+13:54:39.720544   Completed copying simulation restart file.
+13:54:39.720941   Listing cosmo files.
+13:54:39.724140   Completed listing cosmo files.
+13:55:41.983942   Copying simulation input files.
+13:55:41.985614   Completed copying simulation restart file.
+13:55:41.985793   Copying simulation restart file.
+13:55:41.988247      No restart file for 20210101 using restart file from 20201227
+13:55:42.007891   Completed copying simulation restart file.
+13:55:42.008040   Listing cosmo files.
+13:55:42.010801   Completed listing cosmo files.
+13:58:35.537173   Copying simulation input files.
+13:58:35.539141   Completed copying simulation restart file.
+13:58:35.539282   Copying simulation restart file.
+13:58:35.541105      No restart file for 20210101 using restart file from 20201227
+13:58:35.574264   Completed copying simulation restart file.
+13:58:35.574414   Listing cosmo files.
+13:58:35.578451   Completed listing cosmo files.
+14:12:46.947934   Copying simulation input files.
+14:12:46.951018   Completed copying simulation restart file.
+14:12:46.951185   Copying simulation restart file.
+14:12:46.953225      No restart file for 20210101 using restart file from 20201227
+14:12:46.975654   Completed copying simulation restart file.
+14:12:46.975818   Listing cosmo files.
+14:12:46.978299   Completed listing cosmo files.
+14:13:14.988087   Copying simulation input files.
+14:13:14.990301   Completed copying simulation restart file.
+14:13:14.990442   Copying simulation restart file.
+14:13:14.992725      No restart file for 20210101 using restart file from 20201227
+14:13:15.018859   Completed copying simulation restart file.
+14:13:15.018989   Listing cosmo files.
+14:13:15.021313   Completed listing cosmo files.
+14:14:03.948034   Copying simulation input files.
+14:14:03.949580   Completed copying simulation restart file.
+14:14:03.949652   Copying simulation restart file.
+14:14:03.951199      No restart file for 20210101 using restart file from 20201227
+14:14:03.978596   Completed copying simulation restart file.
+14:14:03.978732   Listing cosmo files.
+14:14:03.981371   Completed listing cosmo files.
+14:14:19.286009   Copying simulation input files.
+14:14:19.287985   Completed copying simulation restart file.
+14:14:19.288109   Copying simulation restart file.
+14:14:19.290433      No restart file for 20210101 using restart file from 20201227
+14:14:19.322488   Completed copying simulation restart file.
+14:14:19.322644   Listing cosmo files.
+14:14:19.325205   Completed listing cosmo files.
+14:14:33.289486   Copying simulation input files.
+14:14:33.291037   Completed copying simulation restart file.
+14:14:33.291114   Copying simulation restart file.
+14:14:33.292719      No restart file for 20210101 using restart file from 20201227
+14:14:33.314511   Completed copying simulation restart file.
+14:14:33.314857   Listing cosmo files.
+14:14:33.317361   Completed listing cosmo files.
+14:20:27.977680   Copying simulation input files.
+14:20:27.979289   Completed copying simulation restart file.
+14:20:27.979368   Copying simulation restart file.
+14:20:27.980929      No restart file for 20210101 using restart file from 20201227
+14:20:28.007471   Completed copying simulation restart file.
+14:20:28.007657   Listing cosmo files.
+14:20:28.010104   Completed listing cosmo files.
+14:21:09.673480   Copying simulation input files.
+14:21:09.675003   Completed copying simulation restart file.
+14:21:09.675074   Copying simulation restart file.
+14:21:09.676756      No restart file for 20210101 using restart file from 20201227
+14:21:09.696015   Completed copying simulation restart file.
+14:21:09.696130   Listing cosmo files.
+14:21:09.698261   Completed listing cosmo files.
+09:15:03.155345   Copying simulation input files.
+09:15:03.160472   Completed copying simulation restart file.
+09:15:03.160709   Copying simulation restart file.
+09:15:03.165675      No restart file for 20210101 using restart file from 20201227
+09:15:03.188871   Completed copying simulation restart file.
+09:15:03.189003   Listing cosmo files.
+09:15:03.193001   Completed listing cosmo files.
+09:15:15.023950   Copying simulation input files.
+09:15:15.025363   Completed copying simulation restart file.
+09:15:15.025427   Copying simulation restart file.
+09:15:15.026853      No restart file for 20210101 using restart file from 20201227
+09:15:15.055611   Completed copying simulation restart file.
+09:15:15.055791   Listing cosmo files.
+09:15:15.058789   Completed listing cosmo files.
+09:16:11.341376   Copying simulation input files.
+09:16:11.342762   Completed copying simulation restart file.
+09:16:11.342825   Copying simulation restart file.
+09:16:11.344274      No restart file for 20210101 using restart file from 20201227
+09:16:11.360705   Completed copying simulation restart file.
+09:16:11.360814   Listing cosmo files.
+09:16:11.362818   Completed listing cosmo files.
+09:17:23.541211   Copying simulation input files.
+09:17:23.542676   Completed copying simulation restart file.
+09:17:23.542739   Copying simulation restart file.
+09:17:23.544220      No restart file for 20210101 using restart file from 20201227
+09:17:23.560668   Completed copying simulation restart file.
+09:17:23.560776   Listing cosmo files.
+09:17:23.562747   Completed listing cosmo files.
+09:17:41.583846   Copying simulation input files.
+09:17:41.585489   Completed copying simulation restart file.
+09:17:41.585558   Copying simulation restart file.
+09:17:41.587111      No restart file for 20210101 using restart file from 20201227
+09:17:41.611961   Completed copying simulation restart file.
+09:17:41.612075   Listing cosmo files.
+09:17:41.614189   Completed listing cosmo files.
+09:18:12.346328   Copying simulation input files.
+09:18:12.347895   Completed copying simulation restart file.
+09:18:12.347958   Copying simulation restart file.
+09:18:12.349321      No restart file for 20210101 using restart file from 20201227
+09:18:12.366028   Completed copying simulation restart file.
+09:18:12.366154   Listing cosmo files.
+09:18:12.368405   Completed listing cosmo files.
+09:18:36.352428   Copying simulation input files.
+09:18:36.353785   Completed copying simulation restart file.
+09:18:36.353845   Copying simulation restart file.
+09:18:36.355201      No restart file for 20210101 using restart file from 20201227
+09:18:36.372937   Completed copying simulation restart file.
+09:18:36.373044   Listing cosmo files.
+09:18:36.375040   Completed listing cosmo files.
+09:19:01.753369   Copying simulation input files.
+09:19:01.754928   Completed copying simulation restart file.
+09:19:01.754993   Copying simulation restart file.
+09:19:01.756576      No restart file for 20210101 using restart file from 20201227
+09:19:01.775086   Completed copying simulation restart file.
+09:19:01.775214   Listing cosmo files.
+09:19:01.777439   Completed listing cosmo files.
+09:35:37.367024   Copying simulation input files.
+09:35:37.368371   Completed copying simulation restart file.
+09:35:37.368437   Copying simulation restart file.
+09:35:37.369761      No restart file for 20210101 using restart file from 20201227
+09:35:37.401346   Completed copying simulation restart file.
+09:35:37.401480   Listing cosmo files.
+09:35:37.404020   Completed listing cosmo files.
+09:42:40.622987   Copying simulation input files.
+09:42:40.624396   Completed copying simulation restart file.
+09:42:40.624459   Copying simulation restart file.
+09:42:40.625823      No restart file for 20210101 using restart file from 20201227
+09:42:40.648700   Completed copying simulation restart file.
+09:42:40.648840   Listing cosmo files.
+09:42:40.651321   Completed listing cosmo files.
+09:53:35.175374   Copying simulation input files.
+09:53:35.176869   Completed copying simulation restart file.
+09:53:35.176935   Copying simulation restart file.
+09:53:35.178373      No restart file for 20210101 using restart file from 20201227
+09:53:35.208469   Completed copying simulation restart file.
+09:53:35.208586   Listing cosmo files.
+09:53:35.210743   Completed listing cosmo files.
+09:54:05.042535   Copying simulation input files.
+09:54:05.044103   Completed copying simulation restart file.
+09:54:05.044168   Copying simulation restart file.
+09:54:05.045634      No restart file for 20210101 using restart file from 20201227
+09:54:05.062762   Completed copying simulation restart file.
+09:54:05.062871   Listing cosmo files.
+09:54:05.065128   Completed listing cosmo files.
+09:54:41.256005   Copying simulation input files.
+09:54:41.257280   Completed copying simulation restart file.
+09:54:41.257340   Copying simulation restart file.
+09:54:41.258716      No restart file for 20210101 using restart file from 20201227
+09:54:41.275171   Completed copying simulation restart file.
+09:54:41.275292   Listing cosmo files.
+09:54:41.277278   Completed listing cosmo files.
+09:58:48.031446   Copying simulation input files.
+09:58:48.032775   Completed copying simulation restart file.
+09:58:48.032836   Copying simulation restart file.
+09:58:48.035295      No restart file for 20210101 using restart file from 20201227
+09:58:48.051660   Completed copying simulation restart file.
+09:58:48.051765   Listing cosmo files.
+09:58:48.055403   Completed listing cosmo files.
+09:59:33.680753   Copying simulation input files.
+09:59:33.682176   Completed copying simulation restart file.
+09:59:33.682238   Copying simulation restart file.
+09:59:33.684960      No restart file for 20210101 using restart file from 20201227
+09:59:33.708034   Completed copying simulation restart file.
+09:59:33.708171   Listing cosmo files.
+09:59:33.712153   Completed listing cosmo files.
+10:00:00.607885   Copying simulation input files.
+10:00:00.609316   Completed copying simulation restart file.
+10:00:00.609380   Copying simulation restart file.
+10:00:00.612184      No restart file for 20210101 using restart file from 20201227
+10:00:00.629948   Completed copying simulation restart file.
+10:00:00.630056   Listing cosmo files.
+10:00:00.633365   Completed listing cosmo files.
+10:03:24.723664   Copying simulation input files.
+10:03:24.725202   Completed copying simulation restart file.
+10:03:24.725266   Copying simulation restart file.
+10:03:24.728163      No restart file for 20210101 using restart file from 20201227
+10:03:24.751128   Completed copying simulation restart file.
+10:03:24.751251   Listing cosmo files.
+10:03:24.754599   Completed listing cosmo files.
+10:30:19.999339   Copying simulation input files.
+10:30:20.001069   Completed copying simulation restart file.
+10:30:20.001153   Copying simulation restart file.
+10:30:20.003762      No restart file for 20210101 using restart file from 20201227
+10:30:20.021223   Completed copying simulation restart file.
+10:30:20.021352   Listing cosmo files.
+10:30:20.025564   Completed listing cosmo files.
+10:34:15.537274   Copying simulation input files.
+10:34:15.538728   Completed copying simulation restart file.
+10:34:15.538794   Copying simulation restart file.
+10:34:15.541614      No restart file for 20210101 using restart file from 20201227
+10:34:15.569878   Completed copying simulation restart file.
+10:34:15.569993   Listing cosmo files.
+10:34:15.573721   Completed listing cosmo files.
+10:34:46.890348   Copying simulation input files.
+10:34:46.891818   Completed copying simulation restart file.
+10:34:46.891886   Copying simulation restart file.
+10:34:46.894921      No restart file for 20210101 using restart file from 20201227
+10:34:46.914785   Completed copying simulation restart file.
+10:34:46.914923   Listing cosmo files.
+10:34:46.919496   Completed listing cosmo files.
+10:35:13.053720   Copying simulation input files.
+10:35:13.055234   Completed copying simulation restart file.
+10:35:13.055335   Copying simulation restart file.
+10:35:13.058470      No restart file for 20210101 using restart file from 20201227
+10:35:13.087670   Completed copying simulation restart file.
+10:35:13.087819   Listing cosmo files.
+10:35:13.094849   Completed listing cosmo files.
+10:36:01.221554   Copying simulation input files.
+10:36:01.222967   Completed copying simulation restart file.
+10:36:01.223035   Copying simulation restart file.
+10:36:01.225664      No restart file for 20210101 using restart file from 20201227
+10:36:01.251175   Completed copying simulation restart file.
+10:36:01.251315   Listing cosmo files.
+10:36:01.255083   Completed listing cosmo files.
+10:36:19.095784   Copying simulation input files.
+10:36:19.097411   Completed copying simulation restart file.
+10:36:19.097488   Copying simulation restart file.
+10:36:19.100677      No restart file for 20210101 using restart file from 20201227
+10:36:19.130270   Completed copying simulation restart file.
+10:36:19.130415   Listing cosmo files.
+10:36:19.134796   Completed listing cosmo files.
+10:37:00.926419   Copying simulation input files.
+10:37:00.928163   Completed copying simulation restart file.
+10:37:00.928259   Copying simulation restart file.
+10:37:00.931239      No restart file for 20210101 using restart file from 20201227
+10:37:00.951555   Completed copying simulation restart file.
+10:37:00.951677   Listing cosmo files.
+10:37:00.955767   Completed listing cosmo files.
+10:38:39.829632   Copying simulation input files.
+10:38:39.831177   Completed copying simulation restart file.
+10:38:39.831272   Copying simulation restart file.
+10:38:39.834032      No restart file for 20210101 using restart file from 20201227
+10:38:39.862202   Completed copying simulation restart file.
+10:38:39.862328   Listing cosmo files.
+10:38:39.866390   Completed listing cosmo files.
+11:07:02.751148   Copying simulation input files.
+11:07:02.752646   Completed copying simulation restart file.
+11:07:02.752712   Copying simulation restart file.
+11:07:02.755628      No restart file for 20210101 using restart file from 20201227
+11:07:02.779666   Completed copying simulation restart file.
+11:07:02.779852   Listing cosmo files.
+11:07:02.783871   Completed listing cosmo files.
+11:07:02.784058   Getting raw river data.
+11:07:04.171375   Completed getting raw river data.
+11:07:04.171633   Cleaning raw river data (interpolate missing values and smooth).
+11:07:04.348922   Completed cleaning raw river data.
+11:07:04.349058   Calculating flow balance to assign flow rates to ungauged rivers
+11:07:04.353855   Completed calculating flow balance.
+11:18:28.900934   Copying simulation input files.
+11:18:28.902377   Completed copying simulation restart file.
+11:18:28.902440   Copying simulation restart file.
+11:18:28.905213      No restart file for 20210101 using restart file from 20201227
+11:18:28.923699   Completed copying simulation restart file.
+11:18:28.923816   Listing cosmo files.
+11:18:28.927103   Completed listing cosmo files.
+11:18:28.927287   Getting raw river data.
+11:18:30.170333   Completed getting raw river data.
+11:18:30.170629   Cleaning raw river data (interpolate missing values and smooth).
+11:18:30.331540   Completed cleaning raw river data.
+11:18:30.331762   Calculating flow balance to assign flow rates to ungauged rivers
+11:18:30.332060   TO DO! - Add water level to flow balance computation.
+11:18:30.336045   TO DO! - Ensure flow balance after removing negative values.
+11:18:30.336124   Completed calculating flow balance.
+11:18:40.879226   Copying simulation input files.
+11:18:40.880671   Completed copying simulation restart file.
+11:18:40.880737   Copying simulation restart file.
+11:18:40.883554      No restart file for 20210101 using restart file from 20201227
+11:18:40.902305   Completed copying simulation restart file.
+11:18:40.902453   Listing cosmo files.
+11:18:40.906077   Completed listing cosmo files.
+11:18:40.906265   Getting raw river data.
+11:18:42.286443   Completed getting raw river data.
+11:18:42.286716   Cleaning raw river data (interpolate missing values and smooth).
+11:18:42.423140   Completed cleaning raw river data.
+11:18:42.423250   Calculating flow balance to assign flow rates to ungauged rivers
+11:18:42.423491      TO DO! - Add water level to flow balance computation.
+11:18:42.426447      TO DO! - Ensure flow balance after removing negative values.
+11:18:42.426504   Completed calculating flow balance.
+11:25:13.794371   Copying simulation input files.
+11:25:13.795859   Completed copying simulation restart file.
+11:25:13.795935   Copying simulation restart file.
+11:25:13.798790      No restart file for 20210101 using restart file from 20201227
+11:25:13.826037   Completed copying simulation restart file.
+11:25:13.826176   Listing cosmo files.
+11:25:13.830355   Completed listing cosmo files.
+11:25:13.830580   Getting raw river data.
+11:25:15.185630   Completed getting raw river data.
+11:25:15.185876   Cleaning raw river data (interpolate missing values and smooth).
+11:25:15.326038   Completed cleaning raw river data.
+11:25:15.326143   Calculating flow balance to assign flow rates to ungauged rivers
+11:25:15.326332      TO DO! - Add water level to flow balance computation.
+11:25:15.329259      TO DO! - Ensure flow balance after removing negative values.
+11:25:15.329313   Completed calculating flow balance.
+11:25:27.787139   Copying simulation input files.
+11:25:27.788631   Completed copying simulation restart file.
+11:25:27.788705   Copying simulation restart file.
+11:25:27.791572      No restart file for 20210101 using restart file from 20201227
+11:25:27.809159   Completed copying simulation restart file.
+11:25:27.809281   Listing cosmo files.
+11:25:27.813036   Completed listing cosmo files.
+11:25:27.813219   Getting raw river data.
+11:25:29.169787   Completed getting raw river data.
+11:25:29.170033   Cleaning raw river data (interpolate missing values and smooth).
+11:25:29.308145   Completed cleaning raw river data.
+11:25:29.308287   Calculating flow balance to assign flow rates to ungauged rivers
+11:25:29.308475      TO DO! - Add water level to flow balance computation.
+11:25:29.311386      TO DO! - Ensure flow balance after removing negative values.
+11:25:29.311439   Completed calculating flow balance.
+11:25:29.311481   Extracting T_2M from COSMO files.
+11:25:29.311516      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:25:29.400508      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:25:29.456715      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:25:29.516306      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:25:29.573186      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:25:29.621429      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:25:29.707752      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:25:29.796639      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:25:29.858889      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:25:29.925770   Completed extracting T_2M from COSMO files.
+11:30:47.444038   Copying simulation input files.
+11:30:47.445485   Completed copying simulation restart file.
+11:30:47.445551   Copying simulation restart file.
+11:30:47.448598      No restart file for 20210101 using restart file from 20201227
+11:30:47.478621   Completed copying simulation restart file.
+11:30:47.478751   Listing cosmo files.
+11:30:47.482888   Completed listing cosmo files.
+11:30:47.483092   Getting raw river data.
+11:30:48.935682   Completed getting raw river data.
+11:30:48.936015   Cleaning raw river data (interpolate missing values and smooth).
+11:30:49.077142   Completed cleaning raw river data.
+11:30:49.077255   Calculating flow balance to assign flow rates to ungauged rivers
+11:30:49.077467      TO DO! - Add water level to flow balance computation.
+11:30:49.080598      TO DO! - Ensure flow balance after removing negative values.
+11:30:49.080656   Completed calculating flow balance.
+11:30:49.080697   Estimating river temperatures
+11:30:49.080735   Extracting T_2M from COSMO files.
+11:30:49.080770      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:30:49.104936      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:30:49.126895      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:30:49.150092      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:30:49.175172      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:30:49.200539      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:30:49.225926      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:30:49.251187      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:30:49.275125      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:30:49.301913   Completed extracting T_2M from COSMO files.
+11:30:49.342369      TO DO! - Convert from air temperature to water temperature.
+11:30:49.384499      TO DO! - Convert from air temperature to water temperature.
+11:30:49.429135      TO DO! - Convert from air temperature to water temperature.
+11:30:49.429255   Completed estimating river temperatures
+11:32:37.903891   Copying simulation input files.
+11:32:37.905253   Completed copying simulation restart file.
+11:32:37.905316   Copying simulation restart file.
+11:32:37.908156      No restart file for 20210101 using restart file from 20201227
+11:32:37.925532   Completed copying simulation restart file.
+11:32:37.925675   Listing cosmo files.
+11:32:37.929428   Completed listing cosmo files.
+11:32:37.929608   Getting raw river data.
+11:32:39.246653   Completed getting raw river data.
+11:32:39.246931   Cleaning raw river data (interpolate missing values and smooth).
+11:32:39.388329   Completed cleaning raw river data.
+11:32:39.388447   Calculating flow balance to assign flow rates to ungauged rivers
+11:32:39.388674      TO DO! - Add water level to flow balance computation.
+11:32:39.391639      TO DO! - Ensure flow balance after removing negative values.
+11:32:39.391702   Completed calculating flow balance.
+11:32:39.391756   Estimating river temperatures
+11:32:39.391804   Extracting T_2M from COSMO files.
+11:32:39.391852      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:32:39.416013      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:32:39.438406      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:32:39.462041      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:32:39.487600      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:32:39.512584      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:32:39.537821      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:32:39.561996      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:32:39.585037      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:32:39.610695   Completed extracting T_2M from COSMO files.
+11:32:39.652373      TO DO! - Convert from air temperature to water temperature.
+11:32:39.693485      TO DO! - Convert from air temperature to water temperature.
+11:32:39.740123      TO DO! - Convert from air temperature to water temperature.
+11:32:39.740254   Completed estimating river temperatures
+11:32:39.740353   Writing river data to file.
+11:32:39.740410   Completed writing river data to file.
+11:34:21.752936   ------------STARTING NEW RUN------------
+11:34:21.753511   Copying simulation input files.
+11:34:21.754802   Completed copying simulation restart file.
+11:34:21.754861   Copying simulation restart file.
+11:34:21.757535      No restart file for 20210101 using restart file from 20201227
+11:34:21.780652   Completed copying simulation restart file.
+11:34:21.780786   Listing cosmo files.
+11:34:21.785026   Completed listing cosmo files.
+11:34:21.785232   Getting raw river data.
+11:34:23.231289   Completed getting raw river data.
+11:34:23.231551   Cleaning raw river data (interpolate missing values and smooth).
+11:34:23.375502   Completed cleaning raw river data.
+11:34:23.375664   Calculating flow balance to assign flow rates to ungauged rivers
+11:34:23.375885      TO DO! - Add water level to flow balance computation.
+11:34:23.379167      TO DO! - Ensure flow balance after removing negative values.
+11:34:23.379228   Completed calculating flow balance.
+11:34:23.379278   Estimating river temperatures
+11:34:23.379320   Extracting T_2M from COSMO files.
+11:34:23.379355      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:34:23.405555      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:34:23.427804      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:34:23.451396      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:34:23.477816      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:34:23.505468      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:34:23.531419      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:34:23.557350      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:34:23.579244      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:34:23.603953   Completed extracting T_2M from COSMO files.
+11:34:23.643976      TO DO! - Convert from air temperature to water temperature.
+11:34:23.686340      TO DO! - Convert from air temperature to water temperature.
+11:34:23.733001      TO DO! - Convert from air temperature to water temperature.
+11:34:23.733152   Completed estimating river temperatures
+11:34:23.733233   Writing river data to file.
+11:34:23.733274   Completed writing river data to file.
+11:34:54.687021   
+------------STARTING NEW RUN------------
+11:34:54.687230   Copying simulation input files.
+11:34:54.688625   Completed copying simulation restart file.
+11:34:54.688700   Copying simulation restart file.
+11:34:54.692914      No restart file for 20210101 using restart file from 20201227
+11:34:54.712121   Completed copying simulation restart file.
+11:34:54.712262   Listing cosmo files.
+11:34:54.716201   Completed listing cosmo files.
+11:34:54.716387   Getting raw river data.
+11:34:56.040720   Completed getting raw river data.
+11:34:56.040968   Cleaning raw river data (interpolate missing values and smooth).
+11:34:56.180215   Completed cleaning raw river data.
+11:34:56.180337   Calculating flow balance to assign flow rates to ungauged rivers
+11:34:56.180533      TO DO! - Add water level to flow balance computation.
+11:34:56.183704      TO DO! - Ensure flow balance after removing negative values.
+11:34:56.183764   Completed calculating flow balance.
+11:34:56.183806   Estimating river temperatures
+11:34:56.183846   Extracting T_2M from COSMO files.
+11:34:56.183880      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:34:56.207891      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:34:56.228888      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:34:56.249611      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:34:56.274333      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:34:56.301032      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:34:56.325585      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:34:56.351372      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:34:56.374804      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:34:56.402764   Completed extracting T_2M from COSMO files.
+11:34:56.444219      TO DO! - Convert from air temperature to water temperature.
+11:34:56.488657      TO DO! - Convert from air temperature to water temperature.
+11:34:56.536660      TO DO! - Convert from air temperature to water temperature.
+11:34:56.536877   Completed estimating river temperatures
+11:34:56.536955   Writing river data to file.
+11:34:56.537000   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+11:36:45.207657   Copying simulation input files.
+11:36:45.208937   Completed copying simulation restart file.
+11:36:45.208992   Copying simulation restart file.
+11:36:45.211731      No restart file for 20210101 using restart file from 20201227
+11:36:45.229286   Completed copying simulation restart file.
+11:36:45.229417   Listing cosmo files.
+11:36:45.233003   Completed listing cosmo files.
+11:36:45.233176   Getting raw river data.
+11:36:46.441675   Completed getting raw river data.
+11:36:46.441962   Cleaning raw river data (interpolate missing values and smooth).
+11:36:46.600050   Completed cleaning raw river data.
+11:36:46.600163   Calculating flow balance to assign flow rates to ungauged rivers
+11:36:46.600384      TO DO! - Add water level to flow balance computation.
+11:36:46.603451      TO DO! - Ensure flow balance after removing negative values.
+11:36:46.603507   Completed calculating flow balance.
+11:36:46.603547   Estimating river temperatures
+11:36:46.603585   Extracting T_2M from COSMO files.
+11:36:46.603619      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:36:46.628132      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:36:46.651042      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:36:46.675812      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:36:46.700321      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:36:46.723612      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:36:46.745479      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:36:46.766446      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:36:46.788727      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:36:46.815873   Completed extracting T_2M from COSMO files.
+11:36:46.859027      TO DO! - Convert from air temperature to water temperature.
+11:36:46.901137      TO DO! - Convert from air temperature to water temperature.
+11:36:46.943290      TO DO! - Convert from air temperature to water temperature.
+11:36:46.943407   Completed estimating river temperatures
+11:36:46.943482   Writing river data to file.
+11:36:46.943530   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+11:37:26.731399   Copying simulation input files.
+11:37:26.732679   Completed copying simulation restart file.
+11:37:26.732736   Copying simulation restart file.
+11:37:26.735615      No restart file for 20210101 using restart file from 20201227
+11:37:26.753088   Completed copying simulation restart file.
+11:37:26.753213   Listing cosmo files.
+11:37:26.756534   Completed listing cosmo files.
+11:37:26.756699   Getting raw river data.
+11:37:28.169385   Completed getting raw river data.
+11:37:28.169639   Cleaning raw river data (interpolate missing values and smooth).
+11:37:28.311098   Completed cleaning raw river data.
+11:37:28.311213   Calculating flow balance to assign flow rates to ungauged rivers
+11:37:28.311494      TO DO! - Add water level to flow balance computation.
+11:37:28.314667      TO DO! - Ensure flow balance after removing negative values.
+11:37:28.314726   Completed calculating flow balance.
+11:37:28.314769   Estimating river temperatures
+11:37:28.314810   Extracting T_2M from COSMO files.
+11:37:28.314845      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:37:28.340571      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:37:28.363164      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:37:28.386437      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:37:28.411976      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:37:28.436882      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:37:28.464338      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:37:28.490745      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:37:28.515346      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:37:28.543167   Completed extracting T_2M from COSMO files.
+11:37:28.585585      TO DO! - Convert from air temperature to water temperature.
+11:37:28.631569      TO DO! - Convert from air temperature to water temperature.
+11:37:28.675978      TO DO! - Convert from air temperature to water temperature.
+11:37:28.676103   Completed estimating river temperatures
+11:37:28.676176   Writing river data to file.
+11:37:28.676220   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+11:53:20.863513   Copying simulation input files.
+11:53:20.864711   Completed copying simulation restart file.
+11:53:20.864766   Copying simulation restart file.
+11:53:20.867206      No restart file for 20210101 using restart file from 20201227
+11:53:20.889432   Completed copying simulation restart file.
+11:53:20.889569   Listing cosmo files.
+11:53:20.892950   Completed listing cosmo files.
+11:53:20.893135   Getting raw river data.
+11:53:22.140670   Completed getting raw river data.
+11:53:22.141057   Cleaning raw river data (interpolate missing values and smooth).
+11:53:22.293457   Completed cleaning raw river data.
+11:53:22.293582   Calculating flow balance to assign flow rates to ungauged rivers
+11:53:22.293814      TO DO! - Add water level to flow balance computation.
+11:53:22.297592      TO DO! - Ensure flow balance after removing negative values.
+11:53:22.297682   Completed calculating flow balance.
+11:53:22.297734   Estimating river temperatures
+11:53:22.297781   Extracting T_2M from COSMO files.
+11:53:22.297823      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:53:22.328800      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:53:22.354890      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:53:22.382461      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:53:22.409603      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:53:22.436451      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:53:22.463012      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:53:22.489183      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:53:22.514364      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:53:22.544167   Completed extracting T_2M from COSMO files.
+11:53:22.593906      TO DO! - Convert from air temperature to water temperature.
+11:53:22.644093      TO DO! - Convert from air temperature to water temperature.
+11:53:22.696642      TO DO! - Convert from air temperature to water temperature.
+11:53:22.696766   Completed estimating river temperatures
+11:53:22.696842   Writing river data to file.
+
+------------STARTING NEW RUN------------
+11:53:58.893758   Copying simulation input files.
+11:53:58.895138   Completed copying simulation restart file.
+11:53:58.895217   Copying simulation restart file.
+11:53:58.897785      No restart file for 20210101 using restart file from 20201227
+11:53:58.920668   Completed copying simulation restart file.
+11:53:58.920812   Listing cosmo files.
+11:53:58.924782   Completed listing cosmo files.
+11:53:58.924970   Getting raw river data.
+11:54:00.194127   Completed getting raw river data.
+11:54:00.194375   Cleaning raw river data (interpolate missing values and smooth).
+11:54:00.340464   Completed cleaning raw river data.
+11:54:00.340580   Calculating flow balance to assign flow rates to ungauged rivers
+11:54:00.340797      TO DO! - Add water level to flow balance computation.
+11:54:00.344008      TO DO! - Ensure flow balance after removing negative values.
+11:54:00.344065   Completed calculating flow balance.
+11:54:00.344106   Estimating river temperatures
+11:54:00.344146   Extracting T_2M from COSMO files.
+11:54:00.344180      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:54:00.369656      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:54:00.393004      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:54:00.417787      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:54:00.443261      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:54:00.470324      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:54:00.497450      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:54:00.524126      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:54:00.549605      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:54:00.579921   Completed extracting T_2M from COSMO files.
+11:54:00.629620      TO DO! - Convert from air temperature to water temperature.
+11:54:00.680635      TO DO! - Convert from air temperature to water temperature.
+11:54:00.729230      TO DO! - Convert from air temperature to water temperature.
+11:54:00.729340   Completed estimating river temperatures
+11:54:00.729426   Writing river data to file.
+
+------------STARTING NEW RUN------------
+11:54:11.708376   Copying simulation input files.
+11:54:11.709904   Completed copying simulation restart file.
+11:54:11.709990   Copying simulation restart file.
+11:54:11.713224      No restart file for 20210101 using restart file from 20201227
+11:54:11.738269   Completed copying simulation restart file.
+11:54:11.738449   Listing cosmo files.
+11:54:11.743069   Completed listing cosmo files.
+11:54:11.743322   Getting raw river data.
+11:54:13.004331   Completed getting raw river data.
+11:54:13.004653   Cleaning raw river data (interpolate missing values and smooth).
+11:54:13.152226   Completed cleaning raw river data.
+11:54:13.152341   Calculating flow balance to assign flow rates to ungauged rivers
+11:54:13.152569      TO DO! - Add water level to flow balance computation.
+11:54:13.155757      TO DO! - Ensure flow balance after removing negative values.
+11:54:13.155849   Completed calculating flow balance.
+11:54:13.155898   Estimating river temperatures
+11:54:13.155939   Extracting T_2M from COSMO files.
+11:54:13.155990      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:54:13.180833      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:54:13.203048      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:54:13.226459      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:54:13.252120      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:54:13.277905      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:54:13.303554      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:54:13.328048      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:54:13.352237      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:54:13.381832   Completed extracting T_2M from COSMO files.
+11:54:13.429528      TO DO! - Convert from air temperature to water temperature.
+11:54:13.479472      TO DO! - Convert from air temperature to water temperature.
+11:54:13.524457      TO DO! - Convert from air temperature to water temperature.
+11:54:13.524647   Completed estimating river temperatures
+11:54:13.524735   Writing river data to file.
+11:54:13.524942   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+11:55:40.555750   Copying simulation input files.
+11:55:40.557091   Completed copying simulation restart file.
+11:55:40.557158   Copying simulation restart file.
+11:55:40.560124      No restart file for 20210101 using restart file from 20201227
+11:55:40.578976   Completed copying simulation restart file.
+11:55:40.579141   Listing cosmo files.
+11:55:40.583364   Completed listing cosmo files.
+11:55:40.583584   Getting raw river data.
+11:55:41.891945   Completed getting raw river data.
+11:55:41.892269   Cleaning raw river data (interpolate missing values and smooth).
+11:55:42.044517   Completed cleaning raw river data.
+11:55:42.044632   Calculating flow balance to assign flow rates to ungauged rivers
+11:55:42.044872      TO DO! - Add water level to flow balance computation.
+11:55:42.048235      TO DO! - Ensure flow balance after removing negative values.
+11:55:42.048320   Completed calculating flow balance.
+11:55:42.048382   Estimating river temperatures
+11:55:42.048437   Extracting T_2M from COSMO files.
+11:55:42.048489      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+11:55:42.073690      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+11:55:42.098207      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+11:55:42.125270      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+11:55:42.154086      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+11:55:42.181494      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+11:55:42.208750      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+11:55:42.233979      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+11:55:42.257612      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+11:55:42.286457   Completed extracting T_2M from COSMO files.
+11:55:42.338618      TO DO! - Convert from air temperature to water temperature.
+11:55:42.388250      TO DO! - Convert from air temperature to water temperature.
+11:55:42.436354      TO DO! - Convert from air temperature to water temperature.
+11:55:42.436490   Completed estimating river temperatures
+11:55:42.436589   Writing river data to file.
+11:55:42.436751   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:01:00.865976   Copying simulation input files.
+12:01:00.867271   Completed copying simulation restart file.
+12:01:00.867336   Copying simulation restart file.
+12:01:00.870064      No restart file for 20210101 using restart file from 20201227
+12:01:00.893317   Completed copying simulation restart file.
+12:01:00.893437   Listing cosmo files.
+12:01:00.896916   Completed listing cosmo files.
+12:01:00.897103   Getting raw river data.
+12:01:02.239127   Completed getting raw river data.
+12:01:02.239412   Cleaning raw river data (interpolate missing values and smooth).
+12:01:02.380655   Completed cleaning raw river data.
+12:01:02.380765   Calculating flow balance to assign flow rates to ungauged rivers
+12:01:02.380972      TO DO! - Add water level to flow balance computation.
+12:01:02.384014      TO DO! - Ensure flow balance after removing negative values.
+12:01:02.384068   Completed calculating flow balance.
+12:01:02.384108   Estimating river temperatures
+12:01:02.384144   Extracting T_2M from COSMO files.
+12:01:02.384178      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:01:02.406814      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:01:02.428139      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:01:02.450712      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:01:02.476366      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:01:02.504785      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:01:02.532159      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:01:02.559132      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:01:02.584336      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:01:02.610327   Completed extracting T_2M from COSMO files.
+12:01:02.650924      TO DO! - Convert from air temperature to water temperature.
+12:01:02.693610      TO DO! - Convert from air temperature to water temperature.
+12:01:02.737407      TO DO! - Convert from air temperature to water temperature.
+12:01:02.737881   Completed estimating river temperatures
+12:01:02.738109   Writing river data to file.
+12:01:02.738458   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:06:19.085350   Copying simulation input files.
+12:06:19.086736   Completed copying simulation restart file.
+12:06:19.086796   Copying simulation restart file.
+12:06:19.089447      No restart file for 20210101 using restart file from 20201227
+12:06:19.107599   Completed copying simulation restart file.
+12:06:19.107721   Listing cosmo files.
+12:06:19.111510   Completed listing cosmo files.
+12:06:19.111711   Getting raw river data.
+12:06:20.483283   Completed getting raw river data.
+12:06:20.483573   Cleaning raw river data (interpolate missing values and smooth).
+12:06:20.621847   Completed cleaning raw river data.
+12:06:20.621945   Calculating flow balance to assign flow rates to ungauged rivers
+12:06:20.622185      TO DO! - Add water level to flow balance computation.
+12:06:20.625173      TO DO! - Ensure flow balance after removing negative values.
+12:06:20.625232   Completed calculating flow balance.
+12:06:20.625273   Estimating river temperatures
+12:06:20.625328   Extracting T_2M from COSMO files.
+12:06:20.625370      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:06:20.648260      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:06:20.668235      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:06:20.690511      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:06:20.716115      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:06:20.741206      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:06:20.765515      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:06:20.788210      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:06:20.809525      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:06:20.834427   Completed extracting T_2M from COSMO files.
+12:06:20.874235      TO DO! - Convert from air temperature to water temperature.
+12:06:20.914653      TO DO! - Convert from air temperature to water temperature.
+12:06:20.958414      TO DO! - Convert from air temperature to water temperature.
+12:06:20.958523   Completed estimating river temperatures
+12:06:20.958601   Writing river data to file.
+12:06:21.019096   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:10:19.483644   Copying simulation input files.
+12:10:19.484974   Completed copying simulation restart file.
+12:10:19.485033   Copying simulation restart file.
+12:10:19.487935      No restart file for 20210101 using restart file from 20201227
+12:10:19.506169   Completed copying simulation restart file.
+12:10:19.506320   Listing cosmo files.
+12:10:19.509734   Completed listing cosmo files.
+12:10:19.509905   Getting raw river data.
+12:10:20.833340   Completed getting raw river data.
+12:10:20.833606   Cleaning raw river data (interpolate missing values and smooth).
+12:10:20.972080   Completed cleaning raw river data.
+12:10:20.972185   Calculating flow balance to assign flow rates to ungauged rivers
+12:10:20.972372      TO DO! - Add water level to flow balance computation.
+12:10:20.975315      TO DO! - Ensure flow balance after removing negative values.
+12:10:20.975369   Completed calculating flow balance.
+12:10:20.975407   Estimating river temperatures
+12:10:20.975444   Extracting T_2M from COSMO files.
+12:10:20.975477      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:10:20.997680      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:10:21.017913      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:10:21.037963      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:10:21.063974      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:10:21.089699      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:10:21.114341      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:10:21.139776      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:10:21.164001      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:10:21.190690   Completed extracting T_2M from COSMO files.
+12:10:21.231483      TO DO! - Convert from air temperature to water temperature.
+12:10:21.272426      TO DO! - Convert from air temperature to water temperature.
+12:10:21.316081      TO DO! - Convert from air temperature to water temperature.
+12:10:21.316205   Completed estimating river temperatures
+12:10:21.316313   Writing river data to file.
+12:10:21.342828   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:12:14.346941   Copying simulation input files.
+12:12:14.348226   Completed copying simulation restart file.
+12:12:14.348283   Copying simulation restart file.
+12:12:14.351168      No restart file for 20210101 using restart file from 20201227
+12:12:14.368840   Completed copying simulation restart file.
+12:12:14.368969   Listing cosmo files.
+12:12:14.372309   Completed listing cosmo files.
+12:12:14.372501   Getting raw river data.
+12:12:15.837605   Completed getting raw river data.
+12:12:15.837899   Cleaning raw river data (interpolate missing values and smooth).
+12:12:15.978369   Completed cleaning raw river data.
+12:12:15.978478   Calculating flow balance to assign flow rates to ungauged rivers
+12:12:15.978696      TO DO! - Add water level to flow balance computation.
+12:12:15.981665      TO DO! - Ensure flow balance after removing negative values.
+12:12:15.981723   Completed calculating flow balance.
+12:12:15.981762   Estimating river temperatures
+12:12:15.981808   Extracting T_2M from COSMO files.
+12:12:15.981852      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:12:16.005961      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:12:16.027286      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:12:16.049101      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:12:16.075927      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:12:16.102404      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:12:16.129728      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:12:16.156198      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:12:16.182259      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:12:16.210605   Completed extracting T_2M from COSMO files.
+12:12:16.252987      TO DO! - Convert from air temperature to water temperature.
+12:12:16.297587      TO DO! - Convert from air temperature to water temperature.
+12:12:16.344196      TO DO! - Convert from air temperature to water temperature.
+12:12:16.344366   Completed estimating river temperatures
+12:12:16.344444   Writing river data to file.
+12:12:16.365195   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:12:35.520783   Copying simulation input files.
+12:12:35.522422   Completed copying simulation restart file.
+12:12:35.522507   Copying simulation restart file.
+12:12:35.526023      No restart file for 20210101 using restart file from 20201227
+12:12:35.552269   Completed copying simulation restart file.
+12:12:35.552406   Listing cosmo files.
+12:12:35.556032   Completed listing cosmo files.
+12:12:35.556232   Getting raw river data.
+12:12:36.786798   Completed getting raw river data.
+12:12:36.787056   Cleaning raw river data (interpolate missing values and smooth).
+12:12:36.929560   Completed cleaning raw river data.
+12:12:36.929668   Calculating flow balance to assign flow rates to ungauged rivers
+12:12:36.929859      TO DO! - Add water level to flow balance computation.
+12:12:36.932783      TO DO! - Ensure flow balance after removing negative values.
+12:12:36.932837   Completed calculating flow balance.
+12:12:36.932874   Estimating river temperatures
+12:12:36.932910   Extracting T_2M from COSMO files.
+12:12:36.932945      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:12:36.955691      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:12:36.975772      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:12:36.996746      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:12:37.020257      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:12:37.046992      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:12:37.072035      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:12:37.097534      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:12:37.121176      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:12:37.151862   Completed extracting T_2M from COSMO files.
+12:12:37.194578      TO DO! - Convert from air temperature to water temperature.
+12:12:37.240221      TO DO! - Convert from air temperature to water temperature.
+12:12:37.284220      TO DO! - Convert from air temperature to water temperature.
+12:12:37.284334   Completed estimating river temperatures
+12:12:37.284399   Writing river data to file.
+12:12:37.307503   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:13:09.761251   Copying simulation input files.
+12:13:09.762728   Completed copying simulation restart file.
+12:13:09.762798   Copying simulation restart file.
+12:13:09.765854      No restart file for 20210101 using restart file from 20201227
+12:13:09.785048   Completed copying simulation restart file.
+12:13:09.785173   Listing cosmo files.
+12:13:09.789011   Completed listing cosmo files.
+12:13:09.789220   Getting raw river data.
+12:13:11.016601   Completed getting raw river data.
+12:13:11.016884   Cleaning raw river data (interpolate missing values and smooth).
+12:13:11.155745   Completed cleaning raw river data.
+12:13:11.155848   Calculating flow balance to assign flow rates to ungauged rivers
+12:13:11.156063      TO DO! - Add water level to flow balance computation.
+12:13:11.159176      TO DO! - Ensure flow balance after removing negative values.
+12:13:11.159234   Completed calculating flow balance.
+12:13:11.159283   Estimating river temperatures
+12:13:11.159322   Extracting T_2M from COSMO files.
+12:13:11.159354      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:13:11.182135      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:13:11.202638      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:13:11.223147      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:13:11.247128      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:13:11.274885      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:13:11.299834      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:13:11.324557      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:13:11.347038      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:13:11.373511   Completed extracting T_2M from COSMO files.
+12:13:11.415195      TO DO! - Convert from air temperature to water temperature.
+12:13:11.463470      TO DO! - Convert from air temperature to water temperature.
+12:13:11.508802      TO DO! - Convert from air temperature to water temperature.
+12:13:11.508921   Completed estimating river temperatures
+12:13:11.509033   Writing river data to file.
+12:13:11.532251   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:13:39.359871   Copying simulation input files.
+12:13:39.361174   Completed copying simulation restart file.
+12:13:39.361228   Copying simulation restart file.
+12:13:39.364060      No restart file for 20210101 using restart file from 20201227
+12:13:39.382516   Completed copying simulation restart file.
+12:13:39.382640   Listing cosmo files.
+12:13:39.386039   Completed listing cosmo files.
+12:13:39.386213   Getting raw river data.
+12:13:40.787660   Completed getting raw river data.
+12:13:40.787978   Cleaning raw river data (interpolate missing values and smooth).
+12:13:40.930950   Completed cleaning raw river data.
+12:13:40.931064   Calculating flow balance to assign flow rates to ungauged rivers
+12:13:40.931295      TO DO! - Add water level to flow balance computation.
+12:13:40.934253      TO DO! - Ensure flow balance after removing negative values.
+12:13:40.934308   Completed calculating flow balance.
+12:13:40.934347   Estimating river temperatures
+12:13:40.934395   Extracting T_2M from COSMO files.
+12:13:40.934435      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:13:40.959697      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:13:40.981939      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:13:41.006444      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:13:41.033865      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:13:41.060665      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:13:41.087144      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:13:41.112614      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:13:41.136402      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:13:41.164098   Completed extracting T_2M from COSMO files.
+12:13:41.205792      TO DO! - Convert from air temperature to water temperature.
+12:13:41.248238      TO DO! - Convert from air temperature to water temperature.
+12:13:41.293088      TO DO! - Convert from air temperature to water temperature.
+12:13:41.293202   Completed estimating river temperatures
+12:13:41.293417   Writing river data to file.
+12:13:41.316988   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:16:44.374847   Copying simulation input files.
+12:16:44.376116   Completed copying simulation restart file.
+12:16:44.376170   Copying simulation restart file.
+12:16:44.379166      No restart file for 20210101 using restart file from 20201227
+12:16:44.396579   Completed copying simulation restart file.
+12:16:44.396706   Listing cosmo files.
+12:16:44.400117   Completed listing cosmo files.
+12:16:44.400291   Getting raw river data.
+12:16:45.740233   Completed getting raw river data.
+12:16:45.740502   Cleaning raw river data (interpolate missing values and smooth).
+12:16:45.877308   Completed cleaning raw river data.
+12:16:45.877408   Calculating flow balance to assign flow rates to ungauged rivers
+12:16:45.877630      TO DO! - Add water level to flow balance computation.
+12:16:45.880564      TO DO! - Ensure flow balance after removing negative values.
+12:16:45.880617   Completed calculating flow balance.
+12:16:45.880656   Estimating river temperatures
+12:16:45.880691   Extracting T_2M from COSMO files.
+12:16:45.880724      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:16:45.903439      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:16:45.923611      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:16:45.943675      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:16:45.966468      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:16:45.992020      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:16:46.018197      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:16:46.043141      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:16:46.066309      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:16:46.091616   Completed extracting T_2M from COSMO files.
+12:16:46.131499      TO DO! - Convert from air temperature to water temperature.
+12:16:46.169802      TO DO! - Convert from air temperature to water temperature.
+12:16:46.209596      TO DO! - Convert from air temperature to water temperature.
+12:16:46.209753   Completed estimating river temperatures
+12:16:46.209817   Writing river data to file.
+12:16:46.238920   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:17:36.178461   Copying simulation input files.
+12:17:36.179944   Completed copying simulation restart file.
+12:17:36.180007   Copying simulation restart file.
+12:17:36.182905      No restart file for 20210101 using restart file from 20201227
+12:17:36.200683   Completed copying simulation restart file.
+12:17:36.200818   Listing cosmo files.
+12:17:36.204391   Completed listing cosmo files.
+12:17:36.204564   Getting raw river data.
+12:17:37.562112   Completed getting raw river data.
+12:17:37.562394   Cleaning raw river data (interpolate missing values and smooth).
+12:17:37.700265   Completed cleaning raw river data.
+12:17:37.700369   Calculating flow balance to assign flow rates to ungauged rivers
+12:17:37.700562      TO DO! - Add water level to flow balance computation.
+12:17:37.703504      TO DO! - Ensure flow balance after removing negative values.
+12:17:37.703563   Completed calculating flow balance.
+12:17:37.703602   Estimating river temperatures
+12:17:37.703637   Extracting T_2M from COSMO files.
+12:17:37.703669      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:17:37.726341      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:17:37.746765      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:17:37.767275      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:17:37.791290      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:17:37.815940      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:17:37.840823      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:17:37.863659      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:17:37.885900      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:17:37.911179   Completed extracting T_2M from COSMO files.
+12:17:37.951240      TO DO! - Convert from air temperature to water temperature.
+12:17:37.991027      TO DO! - Convert from air temperature to water temperature.
+12:17:38.035417      TO DO! - Convert from air temperature to water temperature.
+12:17:38.035545   Completed estimating river temperatures
+12:17:38.035616   Writing river data to file.
+12:17:38.066656   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+12:18:07.539775   Copying simulation input files.
+12:18:07.541081   Completed copying simulation restart file.
+12:18:07.541137   Copying simulation restart file.
+12:18:07.543858      No restart file for 20210101 using restart file from 20201227
+12:18:07.579772   Completed copying simulation restart file.
+12:18:07.579911   Listing cosmo files.
+12:18:07.584179   Completed listing cosmo files.
+12:18:07.584680   Getting raw river data.
+12:18:08.969085   Completed getting raw river data.
+12:18:08.969373   Cleaning raw river data (interpolate missing values and smooth).
+12:18:09.107272   Completed cleaning raw river data.
+12:18:09.107383   Calculating flow balance to assign flow rates to ungauged rivers
+12:18:09.107597      TO DO! - Add water level to flow balance computation.
+12:18:09.110527      TO DO! - Ensure flow balance after removing negative values.
+12:18:09.110580   Completed calculating flow balance.
+12:18:09.110622   Estimating river temperatures
+12:18:09.110659   Extracting T_2M from COSMO files.
+12:18:09.110691      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+12:18:09.133503      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+12:18:09.153506      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+12:18:09.174329      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+12:18:09.198026      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+12:18:09.222882      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+12:18:09.246436      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+12:18:09.269653      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+12:18:09.293105      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+12:18:09.320318   Completed extracting T_2M from COSMO files.
+12:18:09.361966      TO DO! - Convert from air temperature to water temperature.
+12:18:09.404200      TO DO! - Convert from air temperature to water temperature.
+12:18:09.450455      TO DO! - Convert from air temperature to water temperature.
+12:18:09.450623   Completed estimating river temperatures
+12:18:09.450694   Writing river data to file.
+12:18:09.480242   Completed writing river data to file.

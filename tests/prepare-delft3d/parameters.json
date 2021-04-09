@@ -2,8 +2,11 @@
   "inflows": [
     {
       "name": "Rhone_SCEX",
+      "id": 1,
       "folder": "Porte-du-Scex",
       "prefix": "BAFU2009_",
+      "flow": "Flow [m³/s]",
+      "temperature": "Temperature [°C]",
       "coordinates": [
         46.35,6.89
       ],
@@ -17,6 +20,7 @@
     },
     {
       "name": "Dranse",
+      "id": 2,
       "contribution": 0.6722,
       "coordinates": [
         46.40,6.51
@@ -31,6 +35,7 @@
     },
     {
       "name": "Aubonne",
+      "id": 3,
       "contribution": 0.1773,
       "coordinates": [
         46.40,6.41
@@ -45,6 +50,7 @@
     },
     {
       "name": "Venoge",
+      "id": 4,
       "contribution": 0.1505,
       "coordinates": [
         46.54, 6.55
@@ -60,8 +66,10 @@
   ],
   "outflow": {
     "name": "Rhone_GVA",
+    "id": 5,
     "folder": "Halle-de-l-ile",
     "prefix": "BAFU2606_",
+    "flow": "Flow [m³/s]",
     "coordinates": [
       46.20, 6.14
     ],
@@ -73,7 +81,8 @@
   },
   "waterlevel": {
     "folder": "St-Prex",
-    "prefix": "BAFU2027_"
+    "prefix": "BAFU2027_",
+    "level": "Level [m a.s.l.]"
   },
   "altitude": 372,
   "bathymetry": {

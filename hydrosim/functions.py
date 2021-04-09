@@ -9,8 +9,11 @@ def closest_previous(arr, val):
     return min(previous, key=lambda x: abs(x - val))
 
 
-def log(str, indent=0):
-    out = datetime.now().strftime("%H:%M:%S.%f") + (" " * 3 * (indent + 1)) + str
+def log(str, indent=0, start=False):
+    if start:
+        out = "\n" + str
+    else:
+        out = datetime.now().strftime("%H:%M:%S.%f") + (" " * 3 * (indent + 1)) + str
     print(out)
     with open("log_hydrosim.txt", "a") as file:
         file.write(out + "\n")

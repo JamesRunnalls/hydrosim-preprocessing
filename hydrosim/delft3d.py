@@ -195,3 +195,193 @@ def create_meteo_files(dir, files, grid, origin=datetime(2008, 3, 1)):
     log("Completed creating meteo files")
 
 
+def create_river_files(parameters, folder, start_date, end_date, cosmo_files, output_simulation_folder):
+    parameters = get_raw_river_data(parameters, folder, start_date, end_date)
+    parameters = clean_raw_river_data(parameters, start_date, end_date)
+    parameters = flow_balance_ungauged_rivers(parameters)
+    parameters = estimate_flow_temperature(parameters, cosmo_files)
+    write_river_data_to_file(parameters, output_simulation_folder)
+
+
+def get_raw_river_data(parameters, folder, start_date, end_date, date_format="%d.%m.%Y%H:%M"):
+    log("Getting raw river data.")
+    for inflow in parameters["inflows"]:
+        if "folder" in inflow:
+            inflow["files"] = []
+            datetime_arr = []
+            temperature_arr = []
+            flow_arr = []
+            ideal_files = []
+            for day in np.arange(start_date, end_date, timedelta(days=1)).astype(datetime):
+                ideal_files.append(inflow["prefix"] + day.strftime('%Y%m%d') + ".txt")
+            for path, subdirs, files in os.walk(folder):
+                for name in files:
+                    if name in ideal_files:
+                        inflow["files"].append(os.path.join(path, name))
+                        df = pd.read_csv(os.path.join(path, name), sep='\t')
+                        df["datetime"] = pd.to_datetime(df['Date'] + df["Time"], format=date_format)
+                        datetime_arr = datetime_arr + list(df["datetime"])
+                        if "temperature" in inflow:
+                            temperature_arr = temperature_arr + list(df[inflow["temperature"]])
+                        else:
+                            temperature_arr = temperature_arr + [np.nan] * len(df["datetime"])
+                        if "flow" in inflow:
+                            flow_arr = flow_arr + list(df[inflow["flow"]])
+                        else:
+                            flow_arr = flow_arr + [np.nan] * len(df["datetime"])
+            inflow["data"] = pd.DataFrame(zip(datetime_arr, flow_arr, temperature_arr), columns=["datetime", "flow", "temperature"])
+
+    if "outflow" in parameters:
+        parameters["outflow"]["files"] = []
+        datetime_arr = []
+        temperature_arr = []
+        flow_arr = []
+        ideal_files = []
+        for day in np.arange(start_date, end_date, timedelta(days=1)).astype(datetime):
+            ideal_files.append(parameters["outflow"]["prefix"] + day.strftime('%Y%m%d') + ".txt")
+        for path, subdirs, files in os.walk(folder):
+            for name in files:
+                if name in ideal_files:
+                    parameters["outflow"]["files"].append(os.path.join(path, name))
+                    df = pd.read_csv(os.path.join(path, name), sep='\t')
+                    df["datetime"] = pd.to_datetime(df['Date'] + df["Time"], format=date_format)
+                    datetime_arr = datetime_arr + list(df["datetime"])
+                    if "temperature" in parameters["outflow"]:
+                        temperature_arr = temperature_arr + list(df[parameters["outflow"]["temperature"]])
+                    else:
+                        temperature_arr = temperature_arr + [np.nan] * len(df["datetime"])
+                    if "flow" in parameters["outflow"]:
+                        flow_arr = flow_arr + list(df[parameters["outflow"]["flow"]])
+                    else:
+                        flow_arr = flow_arr + [np.nan] * len(df["datetime"])
+        parameters["outflow"]["data"] = pd.DataFrame(zip(datetime_arr, flow_arr, temperature_arr), columns=["datetime", "flow", "temperature"])
+
+    if "waterlevel" in parameters:
+        parameters["waterlevel"]["files"] = []
+        datetime_arr = []
+        level_arr = []
+        ideal_files = []
+        for day in np.arange(start_date, end_date, timedelta(days=1)).astype(datetime):
+            ideal_files.append(parameters["waterlevel"]["prefix"] + day.strftime('%Y%m%d') + ".txt")
+        for path, subdirs, files in os.walk(folder):
+            for name in files:
+                if name in ideal_files:
+                    parameters["waterlevel"]["files"].append(os.path.join(path, name))
+                    df = pd.read_csv(os.path.join(path, name), sep='\t')
+                    df["datetime"] = pd.to_datetime(df['Date'] + df["Time"], format=date_format)
+                    datetime_arr = datetime_arr + list(df["datetime"])
+                    level_arr = level_arr + list(df[parameters["waterlevel"]["level"]])
+        parameters["waterlevel"]["data"] = pd.DataFrame(zip(datetime_arr, level_arr), columns=["datetime", "level"])
+    log("Completed getting raw river data.")
+    return parameters
+
+
+def clean_raw_river_data(parameters, start_date, end_date, dt=timedelta(minutes=10), interpolate="linear"):
+    log("Cleaning raw river data (interpolate missing values and smooth).")
+    master_datetime = np.arange(start_date, end_date, dt)
+    df = pd.DataFrame(master_datetime, columns=["datetime"])
+    for inflow in parameters["inflows"]:
+        if "folder" in inflow:
+            data = df.merge(inflow["data"], on='datetime', how='left')
+            data = data.interpolate(method=interpolate)
+            inflow["data"] = data
+
+    if "outflow" in parameters:
+        data = df.merge(parameters["outflow"]["data"], on='datetime', how='left')
+        data = data.interpolate(method=interpolate)
+        parameters["outflow"]["data"] = data
+
+    if "waterlevel" in parameters:
+        data = df.merge(parameters["waterlevel"]["data"], on='datetime', how='left')
+        data = data.interpolate(method=interpolate)
+        parameters["waterlevel"]["data"] = data
+    log("Completed cleaning raw river data.")
+    return parameters
+
+
+def flow_balance_ungauged_rivers(parameters):
+    log("Calculating flow balance to assign flow rates to ungauged rivers")
+    outflow = np.array(parameters["outflow"]["data"]["flow"])
+    master_datetime = np.array(parameters["outflow"]["data"]["datetime"])
+    temperature = [np.nan] * len(master_datetime)
+    log("TO DO! - Add water level to flow balance computation.", 1)
+    extra_flow = outflow
+
+    for inflow in parameters["inflows"]:
+        if "folder" in inflow:
+            extra_flow = extra_flow - np.array(inflow["data"]["flow"])
+
+    for inflow in parameters["inflows"]:
+        if "folder" not in inflow:
+            flow = inflow["contribution"] * extra_flow
+            flow[flow <= 0] = np.nan
+            min = np.nanmin(flow)
+            flow[np.isnan(flow)] = min
+            inflow["data"] = pd.DataFrame(zip(master_datetime, flow, temperature), columns=["datetime", "flow", "temperature"])
+
+    log("TO DO! - Ensure flow balance after removing negative values.", 1)
+
+    log("Completed calculating flow balance.")
+    return parameters
+
+
+def estimate_flow_temperature(parameters, files, temperature="T_2M"):
+    log("Estimating river temperatures")
+    coordinates = list(map(lambda x: x["coordinates"], parameters["inflows"]))
+    air_temperature = cosmo_point_timeseries(coordinates, temperature, files)
+    for i in range(len(parameters["inflows"])):
+        if parameters["inflows"][i]["data"]["temperature"].isnull().values.any():
+            df = parameters["inflows"][i]["data"].merge(air_temperature[i], on="datetime", how="left")
+            df = df.interpolate(method="linear")
+            df["temperature"] = df[temperature]
+            log("TO DO! - Convert from air temperature to water temperature.", 1)
+            parameters["inflows"][i]["data"] = df
+    log("Completed estimating river temperatures")
+    return parameters
+
+
+def write_river_data_to_file(parameters, folder, filename="RiversOperationsQuantities.dis", origin=datetime(2008, 3, 1)):
+    log("Writing river data to file.")
+    f = open(os.path.join(folder, filename), "w")
+    for inflow in parameters["inflows"]:
+        f.write("table-name           'Discharge : {}'\n".format(str(inflow["id"])))
+        f.write("contents             'momentum'\n")
+        f.write("location             '{}'\n".format(inflow["name"]))
+        f.write("time-function        'non-equidistant'\n")
+        f.write("reference-time       {}\n".format(origin.strftime("%Y%m%d")))
+        f.write("time-unit            'minutes'\n")
+        f.write("interpolation        'linear'\n")
+        f.write("parameter            'time                '                     unit '[min]'\n")
+        f.write("parameter            'flux/discharge rate '                     unit '[m3/s]'\n")
+        f.write("parameter            'Temperature         '                     unit '[�C]'\n")
+        f.write("parameter            'flow magnitude      '                     unit '[m/s]'\n")
+        f.write("parameter            'flow direction      '                     unit '[deg]'\n")
+        f.write("records-in-table     {}\n ".format(str(len(inflow["data"]))))
+
+        df = inflow["data"]
+        df["flow_velocity"] = inflow["flow_velocity"]
+        df["flow_direction"] = inflow["flow_direction"]
+        df["minutes"] = (df["datetime"]-origin).astype('timedelta64[m]')
+        out = np.column_stack((df["minutes"], df["flow"], df["temperature"], df["flow_velocity"], df["flow_direction"]))
+        np.savetxt(f, out, fmt="%.7e", delimiter="   ", newline="\n ")
+
+    f.write("table-name           'Discharge : {}'\n".format(str(parameters["outflow"]["id"])))
+    f.write("contents             'regular  '\n")
+    f.write("location             '{}           '\n".format(parameters["outflow"]["name"]))
+    f.write("time-function        'non-equidistant'\n")
+    f.write("reference-time       {}\n".format(origin.strftime("%Y%m%d")))
+    f.write("time-unit            'minutes'\n")
+    f.write("interpolation        'linear'\n")
+    f.write("parameter            'time                '                     unit '[min]'\n")
+    f.write("parameter            'flux/discharge rate '                     unit '[m3/s]'\n")
+    f.write("parameter            'Temperature         '                     unit '[�C]'\n")
+    f.write("records-in-table     {}\n ".format(str(len(parameters["outflow"]["data"]))))
+
+    df = parameters["outflow"]["data"]
+    df["temperature"] = 6
+    df["minutes"] = (df["datetime"] - origin).astype('timedelta64[m]')
+    out = np.column_stack((df["minutes"], df["flow"], df["temperature"]))
+    np.savetxt(f, out, fmt="%.7e", delimiter="   ", newline="\n ")
+
+    f.close()
+    log("Completed writing river data to file.")

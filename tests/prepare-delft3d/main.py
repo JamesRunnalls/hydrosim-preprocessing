@@ -1,12 +1,15 @@
 from datetime import datetime
 import hydrosim.delft3d as d3d
+from hydrosim.functions import log, error
 import json
 
 
 # Define parameters
+log("------------STARTING NEW RUN------------", start=True)
 meteolakes_simulation_folder = "./example-sim"
 output_simulation_folder = "./output-sim"
 cosmo_folder = "./demo-data/Meteodata"
+hydro_folder = "./demo-data/Hydrodata"
 start_date = datetime(2021, 1, 1)
 end_date = datetime(2021, 1, 4)
 grid = {"minx": 490000, "miny": 110000, "maxx": 570000, "maxy": 160000, "dx": 1000, "dy": 1000}
@@ -21,10 +24,7 @@ start_date = d3d.copy_simulation_restart_file(meteolakes_simulation_folder, outp
 cosmo_files = d3d.list_cosmo_files(cosmo_folder, start_date, end_date)
 
 # Create river data
-coordinates = list(map(lambda x: x["coordinates"], parameters["inflows"]))
-air_temperature = d3d.cosmo_point_timeseries(coordinates, "T_2M", cosmo_files)
-
-
+d3d.create_river_files(parameters, hydro_folder, start_date, end_date, cosmo_files, output_simulation_folder)
 
 # Create meteo files
 #d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
