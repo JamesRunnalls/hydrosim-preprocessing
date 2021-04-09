@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from hydrosim.functions import log, error
 import hydrosim.functions as hf
 import netCDF4
+import matplotlib.pyplot as plt
 
 
 def copy_simulation_input_files(input_dir, output_dir):
@@ -16,7 +17,8 @@ def copy_simulation_input_files(input_dir, output_dir):
                       'Bathymetry.dep',
                       'Grid.grd',
                       'GridEnclosure.enc',
-                      'ObservationPoints.obs']
+                      'ObservationPoints.obs',
+                      "RiversOperations.src"]
     for file in required_files:
         if os.path.isfile(os.path.join(input_dir, file)):
             copyfile(os.path.join(input_dir, file), os.path.join(output_dir, file))
@@ -45,6 +47,26 @@ def copy_simulation_restart_file(input_dir, output_dir, start_date):
         log('Failed to copy. Restart file: "' + restart_file + '" is not in the input directory.', 1)
     log("Completed copying simulation restart file.")
     return closest_date
+
+
+def update_control_file(folder, start_date, end_date, origin=datetime(2008, 3, 1), period=180):
+    with open(os.path.join(folder, "Simulation_Web.mdf"), 'r') as f:
+        lines = f.readlines()
+    start = "{:.7e}".format((start_date - origin).total_seconds() / 60)
+    end = "{:.7e}".format((end_date - origin).total_seconds() / 60)
+
+    for i in range(len(lines)):
+        if "Tstart" in lines[i]:
+            lines[i] = "Tstart = " + start + "\n"
+        if "Tstop" in lines[i]:
+            lines[i] = "Tstop = " + end + "\n"
+        if "Restid" in lines[i]:
+            lines[i] = "Restid =  #Simulation_Web_rst.{}.000000#\n".format(start_date.strftime("%Y%m%d"))
+        if lines[i].split(" ")[0] in ["Flmap", "Flhis", "Flwq"]:
+            lines[i] = "{} = {} {} {}\n".format(lines[i].split(" ")[0], start, str(period), end)
+
+    with open(os.path.join(folder, "Simulation_Web.mdf"), 'w') as f:
+        f.writelines(lines)
 
 
 def list_cosmo_files(dir, start_date, end_date, template="cosmo2_epfl_lakes_"):
@@ -186,6 +208,7 @@ def create_meteo_files(dir, files, grid, origin=datetime(2008, 3, 1)):
                 else:
                     error("Incorrect number of dimensions for variable "+dict[i]["parameter"]+" in file "+file)
                 grid_interp = griddata((mxxx, myyy), data.flatten()[ind], (gxx, gyy))
+                grid_interp[np.isnan(grid_interp)] = -999.00
                 write_files[i].write("\n")
                 np.savetxt(write_files[i], grid_interp, fmt='%.2f')
     nc.close()
@@ -289,6 +312,8 @@ def clean_raw_river_data(parameters, start_date, end_date, dt=timedelta(minutes=
     if "outflow" in parameters:
         data = df.merge(parameters["outflow"]["data"], on='datetime', how='left')
         data = data.interpolate(method=interpolate)
+        data["flow"] = data["flow"].rolling(window=12, win_type='gaussian').mean(std=3)
+        data = data.interpolate(method=interpolate, limit_direction='backward')
         parameters["outflow"]["data"] = data
 
     if "waterlevel" in parameters:
@@ -314,9 +339,8 @@ def flow_balance_ungauged_rivers(parameters):
     for inflow in parameters["inflows"]:
         if "folder" not in inflow:
             flow = inflow["contribution"] * extra_flow
-            flow[flow <= 0] = np.nan
-            min = np.nanmin(flow)
-            flow[np.isnan(flow)] = min
+            flow[np.isnan(flow)] = inflow["min_flow"]
+            flow[flow <= inflow["min_flow"]] = inflow["min_flow"]
             inflow["data"] = pd.DataFrame(zip(master_datetime, flow, temperature), columns=["datetime", "flow", "temperature"])
 
     log("TO DO! - Ensure flow balance after removing negative values.", 1)
@@ -380,7 +404,7 @@ def write_river_data_to_file(parameters, folder, filename="RiversOperationsQuant
     df = parameters["outflow"]["data"]
     df["temperature"] = 6
     df["minutes"] = (df["datetime"] - origin).astype('timedelta64[m]')
-    out = np.column_stack((df["minutes"], df["flow"], df["temperature"]))
+    out = np.column_stack((df["minutes"], -df["flow"], df["temperature"]))
     np.savetxt(f, out, fmt="%.7e", delimiter="   ", newline="\n ")
 
     f.close()

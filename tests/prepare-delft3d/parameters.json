@@ -21,6 +21,7 @@
     {
       "name": "Dranse",
       "id": 2,
+      "min_flow": 2.1,
       "contribution": 0.6722,
       "coordinates": [
         46.40,6.51
@@ -36,6 +37,7 @@
     {
       "name": "Aubonne",
       "id": 3,
+      "min_flow": 1.2,
       "contribution": 0.1773,
       "coordinates": [
         46.40,6.41
@@ -51,6 +53,7 @@
     {
       "name": "Venoge",
       "id": 4,
+      "min_flow": 1.1,
       "contribution": 0.1505,
       "coordinates": [
         46.54, 6.55

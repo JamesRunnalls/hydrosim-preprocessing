@@ -19,6 +19,7 @@ with open("parameters.json") as json_file:
 # Copy previous simulation files
 d3d.copy_simulation_input_files(meteolakes_simulation_folder, output_simulation_folder)
 start_date = d3d.copy_simulation_restart_file(meteolakes_simulation_folder, output_simulation_folder, start_date)
+d3d.update_control_file(output_simulation_folder, start_date, end_date)
 
 # Get a list of cosmo input files
 cosmo_files = d3d.list_cosmo_files(cosmo_folder, start_date, end_date)
@@ -27,7 +28,7 @@ cosmo_files = d3d.list_cosmo_files(cosmo_folder, start_date, end_date)
 d3d.create_river_files(parameters, hydro_folder, start_date, end_date, cosmo_files, output_simulation_folder)
 
 # Create meteo files
-#d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
+d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
 
 
 

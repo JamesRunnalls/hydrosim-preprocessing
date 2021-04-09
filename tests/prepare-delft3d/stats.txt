@@ -1,5 +1,5 @@
 Ident  = #Delft3D-FLOW 3.56.29165#
-Commnt =                  
+Mage
 Runtxt = #Lake Geneva#
          #Curvilinear grid#
          #100 z-layers#
@@ -119,8 +119,8 @@ Commnt =                 no. thin dams: 0
 Commnt =                  
 Itdate = #2008-03-01#
 Tunit  = #M#
-Tstart = 6.7449600e+06
-Tstop = 6.7564800e+06
+Tstart =  6.8054400e+006
+Tstop  =  6.8580000e+006
 Dt     = 1
 Tzone  = 0
 Commnt =                  
@@ -131,7 +131,7 @@ Wnsvwp = #Y#
 Wndint = #Y#
 Commnt =                  
 Commnt =                 initial conditions from restart file
-Restid =  #Simulation_Web_rst.20201227.000000#
+Restid =  #Simulation_Web_rst.20210207.000000#
 Commnt =                  
 Commnt =                 no. open boundaries: 0
 Commnt =                  
@@ -209,13 +209,13 @@ PHhydr = #NNNNNN#
 PHderv = #NNN#       
 PHproc = #NNNNNNNNNN#
 PHflux = #NNNN#      
-Flmap = 6.7449600e+06 180 6.7564800e+06
-Flhis = 6.7449600e+06 180 6.7564800e+06
+Flmap  =  6.8054400e+006 180  6.8580000e+006
+Flhis  =  6.8054400e+006 180  6.8580000e+006
 Flpp   =  3.6518400e+006 0  3.6538200e+006
 Flrst  = 10080
 Commnt =                  
 Online = #N#
-Flwq = 6.7449600e+06 180 6.7564800e+06
+Flwq   =  6.8054400e+006 180  6.8580000e+006
 WaqAgg = #active only#
 IlAggr = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 Anglon = 6.6000000e+000
