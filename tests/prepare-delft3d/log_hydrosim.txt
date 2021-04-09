@@ -3863,3 +3863,38 @@
 17:08:52.248110            Processing parameter U
 17:08:53.471776            Processing parameter V
 17:08:54.673740   Completed creating meteo files
+
+------------STARTING NEW RUN------------
+17:13:25.421252   Copying simulation input files.
+17:13:25.422547   Completed copying simulation restart file.
+17:13:25.422602   Copying simulation restart file.
+17:13:25.424060      No restart file for 20210101 using restart file from 20201227
+17:13:25.453306   Completed copying simulation restart file.
+17:13:25.453895   Listing cosmo files.
+17:13:25.456293   Completed listing cosmo files.
+17:13:25.456507   Getting raw river data.
+17:13:25.680619   Completed getting raw river data.
+17:13:25.680808   Cleaning raw river data (interpolate missing values and smooth).
+17:13:25.993650   Completed cleaning raw river data.
+17:13:25.993798   Calculating flow balance to assign flow rates to ungauged rivers
+17:13:25.994053      TO DO! - Add water level to flow balance computation.
+17:13:25.999303      TO DO! - Ensure flow balance after removing negative values.
+17:13:25.999415   Completed calculating flow balance.
+17:13:25.999467   Estimating river temperatures
+17:13:25.999513   Extracting T_2M from COSMO files.
+17:13:25.999554      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201227.nc
+17:13:26.027578      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201228.nc
+17:13:26.052089      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201229.nc
+17:13:26.074692      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201230.nc
+17:13:26.095552      Processing file ./demo-data/Meteodata/2020/cosmo2_epfl_lakes_20201231.nc
+17:13:26.116926      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210101.nc
+17:13:26.137551      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210102.nc
+17:13:26.157186      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210103.nc
+17:13:26.176561      Processing file ./demo-data/Meteodata/2021/cosmo2_epfl_lakes_20210104.nc
+17:13:26.201406   Completed extracting T_2M from COSMO files.
+17:13:26.247789      TO DO! - Convert from air temperature to water temperature.
+17:13:26.292770      TO DO! - Convert from air temperature to water temperature.
+17:13:26.333710      TO DO! - Convert from air temperature to water temperature.
+17:13:26.333830   Completed estimating river temperatures
+17:13:26.333895   Writing river data to file.
+17:13:26.361035   Completed writing river data to file.

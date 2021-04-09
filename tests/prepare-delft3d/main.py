@@ -28,7 +28,7 @@ cosmo_files = d3d.list_cosmo_files(cosmo_folder, start_date, end_date)
 d3d.create_river_files(parameters, hydro_folder, start_date, end_date, cosmo_files, output_simulation_folder)
 
 # Create meteo files
-d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
+#d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
 
 
 

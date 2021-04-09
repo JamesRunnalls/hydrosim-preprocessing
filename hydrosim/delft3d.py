@@ -342,6 +342,7 @@ def flow_balance_ungauged_rivers(parameters):
             flow[np.isnan(flow)] = inflow["min_flow"]
             flow[flow <= inflow["min_flow"]] = inflow["min_flow"]
             inflow["data"] = pd.DataFrame(zip(master_datetime, flow, temperature), columns=["datetime", "flow", "temperature"])
+            inflow["data"]["flow"] = 2
 
     log("TO DO! - Ensure flow balance after removing negative values.", 1)
 
