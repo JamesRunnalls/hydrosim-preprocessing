@@ -53,7 +53,7 @@ def update_control_file(folder, start_date, end_date, origin=datetime(2008, 3, 1
     with open(os.path.join(folder, "Simulation_Web.mdf"), 'r') as f:
         lines = f.readlines()
     start = "{:.7e}".format((start_date - origin).total_seconds() / 60)
-    end = "{:.7e}".format((end_date - origin).total_seconds() / 60)
+    end = "{:.7e}".format(((end_date - origin).total_seconds() / 60)-10)
 
     for i in range(len(lines)):
         if "Tstart" in lines[i]:
@@ -357,7 +357,8 @@ def estimate_flow_temperature(parameters, files, temperature="T_2M"):
         if parameters["inflows"][i]["data"]["temperature"].isnull().values.any():
             df = parameters["inflows"][i]["data"].merge(air_temperature[i], on="datetime", how="left")
             df = df.interpolate(method="linear")
-            df["temperature"] = df[temperature]
+            # df["temperature"] = df[temperature]
+            df["temperature"] = 5
             log("TO DO! - Convert from air temperature to water temperature.", 1)
             parameters["inflows"][i]["data"] = df
     log("Completed estimating river temperatures")
