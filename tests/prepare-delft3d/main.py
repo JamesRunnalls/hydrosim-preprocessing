@@ -11,9 +11,8 @@ output_simulation_folder = "./output-sim"
 cosmo_folder = "./demo-data/Meteodata"
 hydro_folder = "./demo-data/Hydrodata"
 start_date = datetime(2021, 1, 1)
-end_date = datetime(2021, 1, 4)
-grid = {"minx": 490000, "miny": 110000, "maxx": 570000, "maxy": 160000, "dx": 1000, "dy": 1000}
-with open("parameters.json") as json_file:
+end_date = datetime(2021, 1, 5)
+with open("parameters.json", encoding="utf-8") as json_file:
     parameters = json.load(json_file)
 
 # Copy previous simulation files
@@ -28,7 +27,7 @@ cosmo_files = d3d.list_cosmo_files(cosmo_folder, start_date, end_date)
 d3d.create_river_files(parameters, hydro_folder, start_date, end_date, cosmo_files, output_simulation_folder)
 
 # Create meteo files
-d3d.create_meteo_files(output_simulation_folder, cosmo_files, grid)
+d3d.create_meteo_files(output_simulation_folder, cosmo_files, parameters["grid"])
 
 
 

@@ -1,7 +1,7 @@
 import os
 import math
 import numpy as np
-from scipy.interpolate import griddata
+from scipy.interpolate import griddata, interp1d
 import pandas as pd
 from shutil import copyfile
 from datetime import datetime, timedelta
@@ -222,7 +222,9 @@ def create_river_files(parameters, folder, start_date, end_date, cosmo_files, ou
     parameters = get_raw_river_data(parameters, folder, start_date, end_date)
     parameters = clean_raw_river_data(parameters, start_date, end_date)
     parameters = flow_balance_ungauged_rivers(parameters)
-    parameters = estimate_flow_temperature(parameters, cosmo_files)
+    parameters = estimate_flow_temperature(parameters, cosmo_files, start_date)
+    # verify_against_meteolakes_all(parameters)
+    # verify_against_meteolakes(parameters)
     write_river_data_to_file(parameters, output_simulation_folder)
 
 
@@ -312,55 +314,134 @@ def clean_raw_river_data(parameters, start_date, end_date, dt=timedelta(minutes=
     if "outflow" in parameters:
         data = df.merge(parameters["outflow"]["data"], on='datetime', how='left')
         data = data.interpolate(method=interpolate)
-        data["flow"] = data["flow"].rolling(window=12, win_type='gaussian').mean(std=3)
+        data["raw_flow"] = data["flow"]
+        data["flow"] = data["flow"].rolling(window=12, win_type='gaussian', center=True).mean(std=2)
         data = data.interpolate(method=interpolate, limit_direction='backward')
+        data = data.interpolate(method=interpolate)
         parameters["outflow"]["data"] = data
 
     if "waterlevel" in parameters:
         data = df.merge(parameters["waterlevel"]["data"], on='datetime', how='left')
+        data = data.interpolate(method=interpolate)
+        data["level"] = data["level"].rolling(window=144, win_type='gaussian', center=True).mean(std=32)
+        data = data.interpolate(method=interpolate, limit_direction='backward')
         data = data.interpolate(method=interpolate)
         parameters["waterlevel"]["data"] = data
     log("Completed cleaning raw river data.")
     return parameters
 
 
-def flow_balance_ungauged_rivers(parameters):
+def get_water_level_change_flow_equivalent(df_wl, altitude, bathymetry):
+    df_wl['level+'] = df_wl['level'].shift(-1)
+    df_wl.iloc[-1, df_wl.columns.get_loc('level+')] = df_wl['level'].iloc[-1]
+    depth_area = interp1d(bathymetry["depth"], bathymetry["area"])
+    df_wl["area"] = depth_area(df_wl['level'] - altitude)
+    df_wl["area+"] = depth_area(df_wl['level+'] - altitude)
+    df_wl["area_mean"] = df_wl[['area', 'area+']].mean(axis=1)
+    df_wl["dV"] = (df_wl['level+'] - df_wl['level']) * df_wl["area_mean"]
+    dt = (df_wl["datetime"].iloc[1] - df_wl["datetime"].iloc[0]).total_seconds()
+    df_wl["flow"] = df_wl["dV"] / dt
+    return np.array(df_wl["flow"])
+
+
+def verify_against_meteolakes(parameters):
+    df = pd.read_csv("comp.csv")
+    for inflow in parameters["inflows"]:
+        ax = plt.subplot(211)
+        ax.plot(inflow["data"]["flow"], label="james_" + inflow["name"])
+        ax.plot(df[inflow["name"]], label="theo_" + inflow["name"])
+        ax.legend()
+        ax = plt.subplot(212)
+        ax.plot((df[inflow["name"]] - inflow["data"]["flow"]) / df[inflow["name"]])
+        plt.show()
+
+    ax = plt.subplot(211)
+    ax.plot(parameters["outflow"]["data"]["flow"], label="james outflow")
+    ax.plot(df["Out"], label="theo")
+    ax.legend()
+    ax = plt.subplot(212)
+    ax.plot((df["Out"] - parameters["outflow"]["data"]["flow"]) / df["Out"])
+    plt.show()
+
+    ax = plt.subplot(211)
+    ax.plot(parameters["waterlevel"]["data"]["level"], label="james_level")
+    ax.plot(df["Level"], label="theo")
+    ax = plt.subplot(212)
+    ax.plot((df["Level"] - parameters["waterlevel"]["data"]["level"]) / df["Level"])
+    plt.show()
+
+
+def verify_against_meteolakes_all(parameters):
+    df = pd.read_csv("comp.csv")
+    for inflow in parameters["inflows"]:
+        plt.plot(inflow["data"]["flow"], label="james_" + inflow["name"])
+        plt.plot(df[inflow["name"]], label="theo_" + inflow["name"])
+
+    plt.plot(parameters["outflow"]["data"]["flow"], label="james_outflow")
+    plt.plot(df["Out"], label="theo_outflow")
+
+    plt.legend()
+    plt.show()
+
+
+def flow_balance_ungauged_rivers(parameters, min_flow=0.0001, dt=600):
     log("Calculating flow balance to assign flow rates to ungauged rivers")
     outflow = np.array(parameters["outflow"]["data"]["flow"])
     master_datetime = np.array(parameters["outflow"]["data"]["datetime"])
     temperature = [np.nan] * len(master_datetime)
-    log("TO DO! - Add water level to flow balance computation.", 1)
-    extra_flow = outflow
+    water_level_flow = get_water_level_change_flow_equivalent(parameters["waterlevel"]["data"], parameters["altitude"], parameters["bathymetry"])
+    extra_flow = outflow + water_level_flow
 
     for inflow in parameters["inflows"]:
         if "folder" in inflow:
             extra_flow = extra_flow - np.array(inflow["data"]["flow"])
-
     for inflow in parameters["inflows"]:
         if "folder" not in inflow:
             flow = inflow["contribution"] * extra_flow
-            flow[np.isnan(flow)] = inflow["min_flow"]
-            flow[flow <= inflow["min_flow"]] = inflow["min_flow"]
+            flow[np.isnan(flow)] = 0
+            neg_flow = np.copy(flow)
+            neg_flow[neg_flow > min_flow] = 0
+            added_vol = np.abs(np.sum(neg_flow * dt))
+            flow[flow <= min_flow] = min_flow
+            total_vol = np.sum(flow * dt)
+            flow = flow * (1 - added_vol/total_vol)
             inflow["data"] = pd.DataFrame(zip(master_datetime, flow, temperature), columns=["datetime", "flow", "temperature"])
-            inflow["data"]["flow"] = 2
-
-    log("TO DO! - Ensure flow balance after removing negative values.", 1)
 
     log("Completed calculating flow balance.")
     return parameters
 
 
-def estimate_flow_temperature(parameters, files, temperature="T_2M"):
+def toffolon_air_to_water_temperature(start_temperature, air_temperature, flow, a, dt=600, ty=365.2422):
+    a = np.array(a) / (3600 * 24)
+    water_temperature = np.array([start_temperature] * len(air_temperature))
+    """for i in range(1, len(air_temperature)):
+        theta = np.abs(flow[i] / np.nanmean(flow))
+        delta = theta * a[3]
+        t = dt / (3600 * 24)
+        change_temperature = 1 / delta * (a[0] + a[1] * air_temperature[i] - a[2] * water_temperature[i - 1] + theta * (a[4] + a[5] * math.cos(2 * math.pi * (t / ty - a[6])) - a[7] * water_temperature[i - 1])) * dt
+        water_temperature[i] = water_temperature[i] + change_temperature
+
+    print(water_temperature)
+    plt.plot(water_temperature)
+    plt.plot(air_temperature)
+    plt.show()
+    exit()"""
+    return water_temperature
+
+
+def estimate_flow_temperature(parameters, files, start_date, temperature="T_2M"):
     log("Estimating river temperatures")
     coordinates = list(map(lambda x: x["coordinates"], parameters["inflows"]))
     air_temperature = cosmo_point_timeseries(coordinates, temperature, files)
+
     for i in range(len(parameters["inflows"])):
         if parameters["inflows"][i]["data"]["temperature"].isnull().values.any():
             df = parameters["inflows"][i]["data"].merge(air_temperature[i], on="datetime", how="left")
             df = df.interpolate(method="linear")
-            # df["temperature"] = df[temperature]
-            df["temperature"] = 5
-            log("TO DO! - Convert from air temperature to water temperature.", 1)
+            start_temperature = parameters["inflows"][i]["temperature"][start_date.month - 1]
+            df["temperature"] = toffolon_air_to_water_temperature(start_temperature, df[temperature],
+                                                                  parameters["inflows"][i]["data"]["flow"],
+                                                                  parameters["inflows"][i]["a"])
             parameters["inflows"][i]["data"] = df
     log("Completed estimating river temperatures")
     return parameters
