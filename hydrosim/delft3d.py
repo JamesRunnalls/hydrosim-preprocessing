@@ -334,9 +334,9 @@ def clean_raw_river_data(parameters, start_date, end_date, dt=timedelta(minutes=
 def get_water_level_change_flow_equivalent(df_wl, altitude, bathymetry):
     df_wl['level+'] = df_wl['level'].shift(-1)
     df_wl.iloc[-1, df_wl.columns.get_loc('level+')] = df_wl['level'].iloc[-1]
-    depth_area = interp1d(bathymetry["depth"], bathymetry["area"])
-    df_wl["area"] = depth_area(df_wl['level'] - altitude)
-    df_wl["area+"] = depth_area(df_wl['level+'] - altitude)
+    depth_area = interp1d(bathymetry["depth"], bathymetry["area"], fill_value="extrapolate")
+    df_wl["area"] = depth_area(altitude - df_wl['level'])
+    df_wl["area+"] = depth_area(altitude - df_wl['level+'])
     df_wl["area_mean"] = df_wl[['area', 'area+']].mean(axis=1)
     df_wl["dV"] = (df_wl['level+'] - df_wl['level']) * df_wl["area_mean"]
     dt = (df_wl["datetime"].iloc[1] - df_wl["datetime"].iloc[0]).total_seconds()
@@ -457,8 +457,6 @@ def estimate_flow_temperature(parameters, files, start_date, temperature="T_2M")
                                                                   parameters["inflows"][i]["data"]["datetime"],
                                                                   parameters["inflows"][i]["a"])
             parameters["inflows"][i]["data"] = df
-        plt.plot(parameters["inflows"][i]["data"]["temperature"])
-    plt.show()
     log("Completed estimating river temperatures")
     return parameters
 
