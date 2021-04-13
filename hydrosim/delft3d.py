@@ -411,22 +411,35 @@ def flow_balance_ungauged_rivers(parameters, min_flow=0.0001, dt=600):
     return parameters
 
 
-def toffolon_air_to_water_temperature(start_temperature, air_temperature, flow, a, dt=600, ty=365.2422):
-    a = np.array(a) / (3600 * 24)
-    water_temperature = np.array([start_temperature] * len(air_temperature))
-    """for i in range(1, len(air_temperature)):
-        theta = np.abs(flow[i] / np.nanmean(flow))
-        delta = theta * a[3]
-        t = dt / (3600 * 24)
-        change_temperature = 1 / delta * (a[0] + a[1] * air_temperature[i] - a[2] * water_temperature[i - 1] + theta * (a[4] + a[5] * math.cos(2 * math.pi * (t / ty - a[6])) - a[7] * water_temperature[i - 1])) * dt
-        water_temperature[i] = water_temperature[i] + change_temperature
+def toffolon_river_water_temperature(Ts, Ta, Q, time, a, ty=366):
+    """Calculates river water temperature from air temperature and flow rate.
+       Ref: Marco Toffolon and Sebastiano Piccolroaz 2015 Environ. Res. Lett. 10 114011
 
-    print(water_temperature)
-    plt.plot(water_temperature)
-    plt.plot(air_temperature)
-    plt.show()
-    exit()"""
-    return water_temperature
+            Parameters
+            ----------
+            Ts : float
+                Initial water temperature of the river
+            Ta : array, float
+                Array of air temperature floats (degC)
+            Q : array, float
+                Array of flow rate floats (m3/s)
+            time : array, datetime
+                Array of datetimes
+            a : array, float
+                Array of floats (len 8) that defines the calibration parameters
+            """
+    a = np.array(a) / (3600 * 24)
+    a1, a2, a3, a4, a5, a6, a7, a8 = a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7]
+    Tw = np.array([Ts] * len(Ta))
+    dt = (time[1] - time[0]).total_seconds()
+    for i in range(1, len(Ta)):
+        theta = np.abs(Q[i] / np.nanmean(Q))
+        delta = theta ** a4
+        t = (time[i] - datetime(time[i].year, 1, 1)).total_seconds()/(3600*24)
+        ty = (datetime(time[i].year + 1, 1, 1) - datetime(time[i].year, 1, 1)).total_seconds()/(3600*24)
+        dTw = 1 / delta * (a1 + a2 * Ta[i - 1] - a3 * Tw[i - 1] + theta * (a5 + a6 * math.cos(2 * math.pi * (t / ty - a7)) - a8 * Tw[i - 1])) * dt
+        Tw[i] = Tw[i] + dTw
+    return Tw
 
 
 def estimate_flow_temperature(parameters, files, start_date, temperature="T_2M"):
@@ -439,10 +452,13 @@ def estimate_flow_temperature(parameters, files, start_date, temperature="T_2M")
             df = parameters["inflows"][i]["data"].merge(air_temperature[i], on="datetime", how="left")
             df = df.interpolate(method="linear")
             start_temperature = parameters["inflows"][i]["temperature"][start_date.month - 1]
-            df["temperature"] = toffolon_air_to_water_temperature(start_temperature, df[temperature],
+            df["temperature"] = toffolon_river_water_temperature(start_temperature, df[temperature],
                                                                   parameters["inflows"][i]["data"]["flow"],
+                                                                  parameters["inflows"][i]["data"]["datetime"],
                                                                   parameters["inflows"][i]["a"])
             parameters["inflows"][i]["data"] = df
+        plt.plot(parameters["inflows"][i]["data"]["temperature"])
+    plt.show()
     log("Completed estimating river temperatures")
     return parameters
 
