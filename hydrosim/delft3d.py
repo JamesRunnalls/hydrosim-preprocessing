@@ -77,11 +77,14 @@ def list_cosmo_files(dir, start_date, end_date, template="cosmo2_epfl_lakes_"):
     for path, subdirs, files in os.walk(dir):
         for name in files:
             if template in name:
-                date = datetime.strptime(name.split(".")[0].split("_")[-1], '%Y%m%d')
-                if start_date <= date <= end_date:
-                    cosmo_files.append(os.path.join(path, name))
-                    cosmo_dates.append(date)
-                    cosmo_dates_str.append(date.strftime("%Y%m%d"))
+                try:
+                    date = datetime.strptime(name.split(".")[0].split("_")[-1], '%Y%m%d')
+                    if start_date <= date <= end_date:
+                        cosmo_files.append(os.path.join(path, name))
+                        cosmo_dates.append(date)
+                        cosmo_dates_str.append(date.strftime("%Y%m%d"))
+                except:
+                    log("Failed to parse filename: "+name, 1)
     # Check coverage
     for day in np.arange(start_date, end_date, timedelta(days=1)).astype(datetime):
         if day.strftime("%Y%m%d") not in cosmo_dates_str:
