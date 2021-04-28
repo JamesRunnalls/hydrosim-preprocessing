@@ -8635,3 +8635,711 @@
 09:16:53.285419   Completed estimating river temperatures
 09:16:53.291266   Writing river data to file.
 09:16:53.362316   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+18:16:07.687620   Copying simulation input files.
+18:16:07.707523   Completed copying simulation restart file.
+18:16:07.707523   Copying simulation restart file.
+18:16:07.711513      No restart file for 20210101 using restart file from 20201227
+18:16:07.902003   Completed copying simulation restart file.
+18:16:07.904006   Listing cosmo files.
+18:16:07.907987   Completed listing cosmo files.
+18:16:07.909316   Getting raw river data.
+18:16:08.125452   Completed getting raw river data.
+18:16:08.126404   Cleaning raw river data (interpolate missing values and smooth).
+
+------------STARTING NEW RUN------------
+18:16:24.866546   Copying simulation input files.
+18:16:24.882608   Completed copying simulation restart file.
+18:16:24.882608   Copying simulation restart file.
+18:16:24.885600      No restart file for 20210101 using restart file from 20201227
+18:16:25.049859   Completed copying simulation restart file.
+18:16:25.051831   Listing cosmo files.
+18:16:25.055816   Completed listing cosmo files.
+18:16:25.056815   Getting raw river data.
+18:16:25.260854   Completed getting raw river data.
+18:16:25.261812   Cleaning raw river data (interpolate missing values and smooth).
+18:16:25.872348   Completed cleaning raw river data.
+18:16:25.878333   Calculating flow balance to assign flow rates to ungauged rivers
+18:16:25.888344   Completed calculating flow balance.
+18:16:25.889301   Estimating river temperatures
+18:16:25.890662   Extracting T_2M from COSMO files.
+18:16:25.891296      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201227.nc
+18:16:25.949771      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201228.nc
+18:16:26.010632      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201229.nc
+18:16:26.067012      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201230.nc
+18:16:26.127850      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201231.nc
+18:16:26.186692      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210101.nc
+18:16:26.245066      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210102.nc
+18:16:26.299664      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210103.nc
+18:16:26.357930      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210104.nc
+18:16:26.419279   Completed extracting T_2M from COSMO files.
+18:16:27.284448   Completed estimating river temperatures
+18:16:50.342320   Writing river data to file.
+18:16:50.425842   Completed writing river data to file.
+
+------------STARTING NEW RUN------------
+09:22:44.586679   Copying simulation input files.
+09:22:44.610615   Completed copying simulation restart file.
+09:22:44.611612   Copying simulation restart file.
+09:22:44.614604      No restart file for 20210101 using restart file from 20201227
+09:22:44.795122   Completed copying simulation restart file.
+09:22:44.797117   Listing cosmo files.
+09:22:44.805134   Completed listing cosmo files.
+09:22:44.806118   Getting raw river data.
+09:22:45.027002   Completed getting raw river data.
+09:22:45.027002   Cleaning raw river data (interpolate missing values and smooth).
+09:22:46.253758   Completed cleaning raw river data.
+09:22:46.253758   Calculating flow balance to assign flow rates to ungauged rivers
+09:22:46.270061   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:25:24.458866   Copying simulation input files.
+09:25:24.474808   Completed copying simulation restart file.
+09:25:24.474808   Copying simulation restart file.
+09:25:24.474808      No restart file for 20210101 using restart file from 20201227
+09:25:24.632315   Completed copying simulation restart file.
+09:25:24.648133   Listing cosmo files.
+09:25:24.648133   Completed listing cosmo files.
+09:25:24.648133   Getting raw river data.
+09:25:24.853838   Completed getting raw river data.
+09:25:24.853838   Cleaning raw river data (interpolate missing values and smooth).
+09:25:25.418711   Completed cleaning raw river data.
+09:25:25.418711   Calculating flow balance to assign flow rates to ungauged rivers
+09:25:25.434290   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:25:45.870262   Copying simulation input files.
+09:25:45.885842   Completed copying simulation restart file.
+09:25:45.885842   Copying simulation restart file.
+09:25:45.885842      No restart file for 20210101 using restart file from 20201227
+09:25:46.042267   Completed copying simulation restart file.
+09:25:46.042267   Listing cosmo files.
+09:25:46.042267   Completed listing cosmo files.
+09:25:46.042267   Getting raw river data.
+09:25:46.262008   Completed getting raw river data.
+09:25:46.263533   Cleaning raw river data (interpolate missing values and smooth).
+09:25:46.908329   Completed cleaning raw river data.
+09:25:46.914104   Calculating flow balance to assign flow rates to ungauged rivers
+09:25:46.925073   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:26:09.224445   Getting raw river data.
+09:26:09.365381   Completed getting raw river data.
+09:26:09.365381   Cleaning raw river data (interpolate missing values and smooth).
+09:26:09.724685   Completed cleaning raw river data.
+09:26:09.724685   Calculating flow balance to assign flow rates to ungauged rivers
+09:26:09.755918   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:26:50.321762   Copying simulation input files.
+09:26:50.337316   Completed copying simulation restart file.
+09:26:50.337316   Copying simulation restart file.
+09:26:50.337316      No restart file for 20210101 using restart file from 20201227
+09:26:50.494373   Completed copying simulation restart file.
+09:26:50.494373   Listing cosmo files.
+09:26:50.494373   Completed listing cosmo files.
+09:26:50.494373   Getting raw river data.
+09:26:50.699324   Completed getting raw river data.
+09:26:50.699324   Cleaning raw river data (interpolate missing values and smooth).
+09:26:51.299639   Completed cleaning raw river data.
+09:26:51.299639   Calculating flow balance to assign flow rates to ungauged rivers
+09:26:51.315266   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:27:18.904610   Getting raw river data.
+09:27:19.095512   Completed getting raw river data.
+09:27:19.095512   Cleaning raw river data (interpolate missing values and smooth).
+09:27:19.691655   Completed cleaning raw river data.
+09:27:19.707649   Calculating flow balance to assign flow rates to ungauged rivers
+09:27:19.707649   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:27:32.670189   Getting raw river data.
+09:27:47.210012   Completed getting raw river data.
+09:27:47.225628   Cleaning raw river data (interpolate missing values and smooth).
+09:28:19.554651   Completed cleaning raw river data.
+09:28:19.554651   Calculating flow balance to assign flow rates to ungauged rivers
+09:28:19.775717   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:30:52.481988   Getting raw river data.
+09:31:06.801625   Completed getting raw river data.
+09:31:06.817317   Cleaning raw river data (interpolate missing values and smooth).
+09:31:40.223073   Completed cleaning raw river data.
+09:31:40.230031   Calculating flow balance to assign flow rates to ungauged rivers
+09:31:40.433454   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:37:14.607274   Getting raw river data.
+09:37:14.705886   Completed getting raw river data.
+09:37:14.705886   Cleaning raw river data (interpolate missing values and smooth).
+
+------------STARTING NEW RUN------------
+09:38:15.215156   Getting raw river data.
+09:38:15.308772   Completed getting raw river data.
+09:38:15.308772   Cleaning raw river data (interpolate missing values and smooth).
+
+------------STARTING NEW RUN------------
+09:38:51.681657   Getting raw river data.
+09:38:51.775765   Completed getting raw river data.
+09:38:51.775765   Cleaning raw river data (interpolate missing values and smooth).
+
+------------STARTING NEW RUN------------
+09:39:44.361434   Copying simulation input files.
+09:39:44.376684   Completed copying simulation restart file.
+09:39:44.376684   Copying simulation restart file.
+09:39:44.376684      No restart file for 20210101 using restart file from 20201227
+09:39:44.536218   Completed copying simulation restart file.
+09:39:44.552234   Listing cosmo files.
+09:39:44.552234   Completed listing cosmo files.
+09:39:44.552234   Getting raw river data.
+09:39:44.740255   Completed getting raw river data.
+09:39:44.755857   Cleaning raw river data (interpolate missing values and smooth).
+09:39:45.327685   Completed cleaning raw river data.
+09:39:45.327685   Calculating flow balance to assign flow rates to ungauged rivers
+09:39:45.343600   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:40:19.451116   Getting raw river data.
+09:40:19.629885   Completed getting raw river data.
+09:40:19.645506   Cleaning raw river data (interpolate missing values and smooth).
+09:40:20.211134   Completed cleaning raw river data.
+09:40:20.227066   Calculating flow balance to assign flow rates to ungauged rivers
+09:40:20.227066   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:40:29.956240   Getting raw river data.
+09:40:30.145384   Completed getting raw river data.
+09:40:30.145384   Cleaning raw river data (interpolate missing values and smooth).
+09:40:30.742946   Completed cleaning raw river data.
+09:40:30.758878   Calculating flow balance to assign flow rates to ungauged rivers
+09:40:30.758878   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:40:45.768670   Getting raw river data.
+09:40:45.959182   Completed getting raw river data.
+09:40:45.961110   Cleaning raw river data (interpolate missing values and smooth).
+09:40:46.531658   Completed cleaning raw river data.
+09:40:46.537568   Calculating flow balance to assign flow rates to ungauged rivers
+09:40:46.548581   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:47:27.108009   Getting raw river data.
+09:47:27.349757   Completed getting raw river data.
+09:47:27.365477   Cleaning raw river data (interpolate missing values and smooth).
+09:47:28.205630   Completed cleaning raw river data.
+09:47:28.221890   Calculating flow balance to assign flow rates to ungauged rivers
+09:47:28.221890   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:51:06.511537   Getting raw river data.
+09:51:06.716853   Completed getting raw river data.
+09:51:06.718782   Cleaning raw river data (interpolate missing values and smooth).
+09:51:07.274478   Completed cleaning raw river data.
+09:51:07.274478   Calculating flow balance to assign flow rates to ungauged rivers
+09:51:07.290077   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:51:27.326268   Getting raw river data.
+09:51:27.509235   Completed getting raw river data.
+09:51:27.524911   Cleaning raw river data (interpolate missing values and smooth).
+09:51:28.092414   Completed cleaning raw river data.
+09:51:28.092414   Calculating flow balance to assign flow rates to ungauged rivers
+09:51:28.108247   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:51:43.704464   Getting raw river data.
+09:51:43.901883   Completed getting raw river data.
+09:51:43.903844   Cleaning raw river data (interpolate missing values and smooth).
+09:51:44.488285   Completed cleaning raw river data.
+09:51:44.494470   Calculating flow balance to assign flow rates to ungauged rivers
+09:51:44.504240   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:52:03.214937   Getting raw river data.
+09:52:03.405790   Completed getting raw river data.
+09:52:03.405790   Cleaning raw river data (interpolate missing values and smooth).
+09:52:03.973074   Completed cleaning raw river data.
+09:52:03.973074   Calculating flow balance to assign flow rates to ungauged rivers
+09:52:03.988693   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:52:27.019179   Getting raw river data.
+09:52:27.207860   Completed getting raw river data.
+09:52:27.207860   Cleaning raw river data (interpolate missing values and smooth).
+09:52:27.786183   Completed cleaning raw river data.
+09:52:27.786183   Calculating flow balance to assign flow rates to ungauged rivers
+09:52:27.802052   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:53:12.104349   Getting raw river data.
+09:53:12.293697   Completed getting raw river data.
+09:53:12.293697   Cleaning raw river data (interpolate missing values and smooth).
+09:53:12.859878   Completed cleaning raw river data.
+09:53:12.859878   Calculating flow balance to assign flow rates to ungauged rivers
+09:53:12.875788   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:53:44.602106   Getting raw river data.
+09:53:44.808494   Completed getting raw river data.
+09:53:44.809491   Cleaning raw river data (interpolate missing values and smooth).
+09:53:45.387067   Completed cleaning raw river data.
+09:53:45.387067   Calculating flow balance to assign flow rates to ungauged rivers
+09:53:45.402723   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:54:02.499752   Getting raw river data.
+09:54:02.707092   Completed getting raw river data.
+09:54:02.707092   Cleaning raw river data (interpolate missing values and smooth).
+09:54:03.278624   Completed cleaning raw river data.
+09:54:03.278624   Calculating flow balance to assign flow rates to ungauged rivers
+09:54:03.294405   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:54:52.597977   Getting raw river data.
+09:54:52.786282   Completed getting raw river data.
+09:54:52.801901   Cleaning raw river data (interpolate missing values and smooth).
+09:54:53.398936   Completed cleaning raw river data.
+09:54:53.398936   Calculating flow balance to assign flow rates to ungauged rivers
+09:54:53.414516   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:55:14.816650   Getting raw river data.
+09:55:15.013862   Completed getting raw river data.
+09:55:15.013862   Cleaning raw river data (interpolate missing values and smooth).
+09:55:15.574791   Completed cleaning raw river data.
+09:55:15.590704   Calculating flow balance to assign flow rates to ungauged rivers
+09:55:15.590704   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:55:35.841991   Getting raw river data.
+09:55:36.030263   Completed getting raw river data.
+09:55:36.030263   Cleaning raw river data (interpolate missing values and smooth).
+09:55:36.597066   Completed cleaning raw river data.
+09:55:36.613498   Calculating flow balance to assign flow rates to ungauged rivers
+09:55:36.613498   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:55:44.240248   Getting raw river data.
+09:55:44.448689   Completed getting raw river data.
+09:55:44.449687   Cleaning raw river data (interpolate missing values and smooth).
+09:55:45.065039   Completed cleaning raw river data.
+09:55:45.071021   Calculating flow balance to assign flow rates to ungauged rivers
+09:55:45.081992   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+09:55:55.696115   Getting raw river data.
+09:55:55.879606   Completed getting raw river data.
+09:55:55.895219   Cleaning raw river data (interpolate missing values and smooth).
+09:55:56.472530   Completed cleaning raw river data.
+09:55:56.472530   Calculating flow balance to assign flow rates to ungauged rivers
+09:55:56.488375   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:02:59.482341   Getting raw river data.
+10:02:59.672697   Completed getting raw river data.
+10:02:59.672697   Cleaning raw river data (interpolate missing values and smooth).
+10:03:00.262813   Completed cleaning raw river data.
+10:03:00.262813   Calculating flow balance to assign flow rates to ungauged rivers
+10:03:00.278949   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:03:16.071409   Getting raw river data.
+10:03:16.261314   Completed getting raw river data.
+10:03:16.261314   Cleaning raw river data (interpolate missing values and smooth).
+10:03:16.831433   Completed cleaning raw river data.
+10:03:16.847847   Calculating flow balance to assign flow rates to ungauged rivers
+10:03:16.847847   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:04:23.364098   Getting raw river data.
+10:04:23.554881   Completed getting raw river data.
+10:04:23.554881   Cleaning raw river data (interpolate missing values and smooth).
+10:04:24.143330   Completed cleaning raw river data.
+10:04:24.143330   Calculating flow balance to assign flow rates to ungauged rivers
+10:04:24.153393   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:04:49.413724   Getting raw river data.
+10:04:49.587813   Completed getting raw river data.
+10:04:49.587813   Cleaning raw river data (interpolate missing values and smooth).
+10:04:50.155520   Completed cleaning raw river data.
+10:04:50.171434   Calculating flow balance to assign flow rates to ungauged rivers
+10:04:50.171434   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:05:18.891639   Getting raw river data.
+10:05:19.083869   Completed getting raw river data.
+10:05:19.083869   Cleaning raw river data (interpolate missing values and smooth).
+10:05:19.651146   Completed cleaning raw river data.
+10:05:19.651146   Calculating flow balance to assign flow rates to ungauged rivers
+10:05:19.666768   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:06:08.966325   Getting raw river data.
+10:06:09.155468   Completed getting raw river data.
+10:06:09.155468   Cleaning raw river data (interpolate missing values and smooth).
+10:06:09.741616   Completed cleaning raw river data.
+10:06:09.757715   Calculating flow balance to assign flow rates to ungauged rivers
+10:06:09.757715   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:17:08.061687   Getting raw river data.
+10:17:24.319542   Completed getting raw river data.
+10:17:24.337238   Cleaning raw river data (interpolate missing values and smooth).
+10:18:04.211621   Completed cleaning raw river data.
+10:18:04.218125   Calculating flow balance to assign flow rates to ungauged rivers
+10:18:04.470224   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:21:15.031585   Getting raw river data.
+10:21:21.582447   Completed getting raw river data.
+10:21:21.592439   Cleaning raw river data (interpolate missing values and smooth).
+10:21:41.258712   Completed cleaning raw river data.
+10:21:41.264724   Calculating flow balance to assign flow rates to ungauged rivers
+10:21:41.383537   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:23:17.148056   Getting raw river data.
+10:23:17.336572   Completed getting raw river data.
+10:23:17.336572   Cleaning raw river data (interpolate missing values and smooth).
+10:23:17.889888   Completed cleaning raw river data.
+10:23:17.905873   Calculating flow balance to assign flow rates to ungauged rivers
+10:23:17.905873   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:25:56.697006   Getting raw river data.
+10:25:56.888537   Completed getting raw river data.
+10:25:56.890467   Cleaning raw river data (interpolate missing values and smooth).
+10:25:57.453998   Completed cleaning raw river data.
+10:25:57.456564   Calculating flow balance to assign flow rates to ungauged rivers
+10:25:57.456564   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:28:02.764856   Getting raw river data.
+10:28:02.954519   Completed getting raw river data.
+10:28:02.954519   Cleaning raw river data (interpolate missing values and smooth).
+10:28:03.521877   Completed cleaning raw river data.
+10:28:03.537867   Calculating flow balance to assign flow rates to ungauged rivers
+10:28:03.537867   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:28:48.694766   Getting raw river data.
+10:28:48.883449   Completed getting raw river data.
+10:28:48.883449   Cleaning raw river data (interpolate missing values and smooth).
+10:28:49.464919   Completed cleaning raw river data.
+10:28:49.480953   Calculating flow balance to assign flow rates to ungauged rivers
+10:28:49.480953   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:30:11.575071   Getting raw river data.
+10:30:11.779708   Completed getting raw river data.
+10:30:11.779708   Cleaning raw river data (interpolate missing values and smooth).
+10:30:12.379926   Completed cleaning raw river data.
+10:30:12.379926   Calculating flow balance to assign flow rates to ungauged rivers
+10:30:12.398300   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:31:18.465705   Getting raw river data.
+10:31:18.653772   Completed getting raw river data.
+10:31:18.653772   Cleaning raw river data (interpolate missing values and smooth).
+10:31:19.235696   Completed cleaning raw river data.
+10:31:19.235696   Calculating flow balance to assign flow rates to ungauged rivers
+10:31:19.251318   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:31:44.896892   Getting raw river data.
+10:31:45.086869   Completed getting raw river data.
+10:31:45.086869   Cleaning raw river data (interpolate missing values and smooth).
+10:31:45.669013   Completed cleaning raw river data.
+10:31:45.669013   Calculating flow balance to assign flow rates to ungauged rivers
+10:31:45.684809   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:31:53.319098   Getting raw river data.
+10:31:53.522757   Completed getting raw river data.
+10:31:53.522757   Cleaning raw river data (interpolate missing values and smooth).
+10:31:54.107594   Completed cleaning raw river data.
+10:31:54.107594   Calculating flow balance to assign flow rates to ungauged rivers
+10:31:54.123177   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:32:27.381285   Getting raw river data.
+10:32:40.908244   Completed getting raw river data.
+10:32:40.923862   Cleaning raw river data (interpolate missing values and smooth).
+10:33:19.465881   Completed cleaning raw river data.
+10:33:19.472659   Calculating flow balance to assign flow rates to ungauged rivers
+10:33:19.778586   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:39:49.240432   Getting raw river data.
+10:39:49.430438   Completed getting raw river data.
+10:39:49.430438   Cleaning raw river data (interpolate missing values and smooth).
+10:39:50.000117   Completed cleaning raw river data.
+10:39:50.000117   Calculating flow balance to assign flow rates to ungauged rivers
+10:39:50.015741   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:47:44.372269   Getting raw river data.
+10:47:44.570699   Completed getting raw river data.
+10:47:44.572696   Cleaning raw river data (interpolate missing values and smooth).
+10:47:45.189047   Completed cleaning raw river data.
+10:47:45.195043   Calculating flow balance to assign flow rates to ungauged rivers
+
+------------STARTING NEW RUN------------
+10:48:01.452450   Getting raw river data.
+10:48:01.657899   Completed getting raw river data.
+10:48:01.658897   Cleaning raw river data (interpolate missing values and smooth).
+10:48:02.240997   Completed cleaning raw river data.
+10:48:02.246933   Calculating flow balance to assign flow rates to ungauged rivers
+10:48:02.256954   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:50:10.017889   Getting raw river data.
+10:50:10.218417   Completed getting raw river data.
+10:50:10.220399   Cleaning raw river data (interpolate missing values and smooth).
+10:50:10.794877   Completed cleaning raw river data.
+10:50:10.800818   Calculating flow balance to assign flow rates to ungauged rivers
+10:50:10.810832   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:51:14.680154   Getting raw river data.
+10:51:14.883589   Completed getting raw river data.
+10:51:14.884587   Cleaning raw river data (interpolate missing values and smooth).
+10:51:15.513951   Completed cleaning raw river data.
+10:51:15.520886   Calculating flow balance to assign flow rates to ungauged rivers
+
+------------STARTING NEW RUN------------
+10:51:27.723270   Getting raw river data.
+10:51:27.921773   Completed getting raw river data.
+10:51:27.922731   Cleaning raw river data (interpolate missing values and smooth).
+10:51:28.647793   Completed cleaning raw river data.
+10:51:28.653776   Calculating flow balance to assign flow rates to ungauged rivers
+
+------------STARTING NEW RUN------------
+10:51:48.688558   Getting raw river data.
+10:51:48.879048   Completed getting raw river data.
+10:51:48.880046   Cleaning raw river data (interpolate missing values and smooth).
+10:51:49.444582   Completed cleaning raw river data.
+10:51:49.451518   Calculating flow balance to assign flow rates to ungauged rivers
+10:51:49.461491   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:53:08.085117   Getting raw river data.
+10:53:08.280621   Completed getting raw river data.
+10:53:08.281549   Cleaning raw river data (interpolate missing values and smooth).
+10:53:08.848143   Completed cleaning raw river data.
+10:53:08.855019   Calculating flow balance to assign flow rates to ungauged rivers
+
+------------STARTING NEW RUN------------
+10:53:16.868714   Getting raw river data.
+10:53:17.059249   Completed getting raw river data.
+10:53:17.060204   Cleaning raw river data (interpolate missing values and smooth).
+10:53:17.619771   Completed cleaning raw river data.
+10:53:17.626689   Calculating flow balance to assign flow rates to ungauged rivers
+10:53:17.636704   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:54:58.339592   Getting raw river data.
+10:54:58.529056   Completed getting raw river data.
+10:54:58.530053   Cleaning raw river data (interpolate missing values and smooth).
+10:54:59.107526   Completed cleaning raw river data.
+10:54:59.113573   Calculating flow balance to assign flow rates to ungauged rivers
+10:54:59.123482   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:55:25.401857   Getting raw river data.
+10:55:25.596384   Completed getting raw river data.
+10:55:25.597358   Cleaning raw river data (interpolate missing values and smooth).
+10:55:26.170841   Completed cleaning raw river data.
+10:55:26.176777   Calculating flow balance to assign flow rates to ungauged rivers
+10:55:26.186796   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:55:38.996239   Getting raw river data.
+10:55:39.194729   Completed getting raw river data.
+10:55:39.196659   Cleaning raw river data (interpolate missing values and smooth).
+10:55:39.771177   Completed cleaning raw river data.
+10:55:39.777133   Calculating flow balance to assign flow rates to ungauged rivers
+10:55:39.787114   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:55:48.943329   Getting raw river data.
+10:55:49.149775   Completed getting raw river data.
+10:55:49.151769   Cleaning raw river data (interpolate missing values and smooth).
+10:55:49.732056   Completed cleaning raw river data.
+10:55:49.738425   Calculating flow balance to assign flow rates to ungauged rivers
+10:55:49.748444   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:56:15.661015   Getting raw river data.
+10:56:15.860478   Completed getting raw river data.
+10:56:15.861476   Cleaning raw river data (interpolate missing values and smooth).
+10:56:16.432007   Completed cleaning raw river data.
+10:56:16.437927   Calculating flow balance to assign flow rates to ungauged rivers
+10:56:16.447961   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:56:30.402751   Getting raw river data.
+10:56:30.603279   Completed getting raw river data.
+10:56:30.604208   Cleaning raw river data (interpolate missing values and smooth).
+10:56:31.167767   Completed cleaning raw river data.
+10:56:31.173696   Calculating flow balance to assign flow rates to ungauged rivers
+10:56:31.183699   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:56:52.889408   Getting raw river data.
+10:56:53.099842   Completed getting raw river data.
+10:56:53.101886   Cleaning raw river data (interpolate missing values and smooth).
+10:56:53.749094   Completed cleaning raw river data.
+10:56:53.755078   Calculating flow balance to assign flow rates to ungauged rivers
+10:56:53.766048   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:57:10.375152   Getting raw river data.
+10:57:10.574627   Completed getting raw river data.
+10:57:10.575594   Cleaning raw river data (interpolate missing values and smooth).
+10:57:11.210886   Completed cleaning raw river data.
+10:57:11.217867   Calculating flow balance to assign flow rates to ungauged rivers
+10:57:11.228837   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+10:57:20.838876   Getting raw river data.
+10:57:36.140857   Completed getting raw river data.
+10:57:36.155856   Cleaning raw river data (interpolate missing values and smooth).
+10:58:14.791085   Completed cleaning raw river data.
+10:58:14.798101   Calculating flow balance to assign flow rates to ungauged rivers
+10:58:15.068030   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+11:06:37.123956   Getting raw river data.
+11:06:37.327474   Completed getting raw river data.
+11:06:37.328408   Cleaning raw river data (interpolate missing values and smooth).
+11:06:37.901942   Completed cleaning raw river data.
+11:06:37.908870   Calculating flow balance to assign flow rates to ungauged rivers
+11:06:37.920866   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+11:09:38.793300   Copying simulation input files.
+11:09:38.807195   Completed copying simulation restart file.
+11:09:38.807195   Copying simulation restart file.
+11:09:38.958789   Completed copying simulation restart file.
+11:09:38.960784   Listing cosmo files.
+11:09:38.964773   Completed listing cosmo files.
+11:09:38.964773   Getting raw river data.
+11:09:39.161291   Completed getting raw river data.
+11:09:39.162255   Cleaning raw river data (interpolate missing values and smooth).
+11:09:39.737756   Completed cleaning raw river data.
+11:09:39.743694   Calculating flow balance to assign flow rates to ungauged rivers
+11:09:39.753730   Completed calculating flow balance.
+11:09:39.754661   Estimating river temperatures
+11:09:39.755672   Extracting T_2M from COSMO files.
+11:09:39.756655      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201227.nc
+11:09:39.826468      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201228.nc
+11:09:39.878330      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201229.nc
+11:09:39.929194      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201230.nc
+11:09:39.984047      Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201231.nc
+11:09:40.033913      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210101.nc
+11:09:40.082783      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210102.nc
+11:09:40.137636      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210103.nc
+11:09:40.190556      Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210104.nc
+11:09:40.253327   Completed extracting T_2M from COSMO files.
+11:09:41.106091   Completed estimating river temperatures
+11:09:46.224658   Writing river data to file.
+11:09:46.302938   Completed writing river data to file.
+11:09:46.303937   Creating meteo files
+11:09:46.304933      Read latitude and longitude
+11:09:46.310961      Reduce size of MeteoSwiss dataset
+11:09:46.334914      Creating the grid
+11:09:46.335850      Create the output meteo files and write the header
+11:09:46.340837      Extracting data from files.
+11:09:46.341835         Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201227.nc
+11:09:46.343870            Processing parameter CLCT
+11:09:47.385044            Processing parameter PMSL
+11:09:48.199019            Processing parameter RELHUM_2M
+11:09:48.951010            Processing parameter GLOB
+11:09:49.680863            Processing parameter T_2M
+11:09:50.416971            Processing parameter U
+11:09:51.601077            Processing parameter V
+11:09:52.694974         Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201228.nc
+11:09:52.695954            Processing parameter CLCT
+11:09:53.440994            Processing parameter PMSL
+11:09:54.167003            Processing parameter RELHUM_2M
+11:09:54.913252            Processing parameter GLOB
+11:09:55.615376            Processing parameter T_2M
+11:09:56.345586            Processing parameter U
+11:09:57.459697            Processing parameter V
+11:09:58.587162         Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201229.nc
+11:09:58.588184            Processing parameter CLCT
+11:09:59.372063            Processing parameter PMSL
+11:10:00.132073            Processing parameter RELHUM_2M
+11:10:00.905207            Processing parameter GLOB
+11:10:01.623637            Processing parameter T_2M
+11:10:02.354757            Processing parameter U
+11:10:03.517634            Processing parameter V
+11:10:04.597681         Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201230.nc
+11:10:04.598678            Processing parameter CLCT
+11:10:05.326730            Processing parameter PMSL
+11:10:06.049810            Processing parameter RELHUM_2M
+11:10:06.782874            Processing parameter GLOB
+11:10:07.511885            Processing parameter T_2M
+11:10:08.256012            Processing parameter U
+11:10:09.402790            Processing parameter V
+11:10:10.538308         Processing file ./demo-data/Meteodata\2020\cosmo2_epfl_lakes_20201231.nc
+11:10:10.539261            Processing parameter CLCT
+11:10:11.289379            Processing parameter PMSL
+11:10:12.101142            Processing parameter RELHUM_2M
+11:10:12.866140            Processing parameter GLOB
+11:10:13.615612            Processing parameter T_2M
+11:10:14.374690            Processing parameter U
+11:10:15.821062            Processing parameter V
+11:10:16.882964         Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210101.nc
+11:10:16.883961            Processing parameter CLCT
+11:10:17.622984            Processing parameter PMSL
+11:10:18.447777            Processing parameter RELHUM_2M
+11:10:19.305371            Processing parameter GLOB
+11:10:20.281077            Processing parameter T_2M
+11:10:21.126814            Processing parameter U
+11:10:22.235972            Processing parameter V
+11:10:23.305071         Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210102.nc
+11:10:23.307120            Processing parameter CLCT
+11:10:24.069034            Processing parameter PMSL
+11:10:24.824494            Processing parameter RELHUM_2M
+11:10:25.568201            Processing parameter GLOB
+11:10:26.276305            Processing parameter T_2M
+11:10:27.032480            Processing parameter U
+11:10:28.213570            Processing parameter V
+11:10:29.305425         Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210103.nc
+11:10:29.306386            Processing parameter CLCT
+11:10:30.048441            Processing parameter PMSL
+11:10:30.791407            Processing parameter RELHUM_2M
+11:10:31.526070            Processing parameter GLOB
+11:10:32.230141            Processing parameter T_2M
+11:10:32.962228            Processing parameter U
+11:10:34.140552            Processing parameter V
+11:10:35.247939         Processing file ./demo-data/Meteodata\2021\cosmo2_epfl_lakes_20210104.nc
+11:10:35.248922            Processing parameter CLCT
+11:10:36.008902            Processing parameter PMSL
+11:10:36.753908            Processing parameter RELHUM_2M
+11:10:37.485907            Processing parameter GLOB
+11:10:38.193021            Processing parameter T_2M
+11:10:38.922110            Processing parameter U
+11:10:40.034365            Processing parameter V
+11:10:41.208123   Completed creating meteo files
+
+------------STARTING NEW RUN------------
+11:14:31.745169   Getting raw river data.
+11:14:31.941710   Completed getting raw river data.
+11:14:31.942641   Cleaning raw river data (interpolate missing values and smooth).
+11:14:32.508194   Completed cleaning raw river data.
+11:14:32.515110   Calculating flow balance to assign flow rates to ungauged rivers
+11:14:32.525148   Completed calculating flow balance.
+
+------------STARTING NEW RUN------------
+11:15:31.530989   Getting raw river data.
+11:15:46.528097   Completed getting raw river data.
+11:15:46.544056   Cleaning raw river data (interpolate missing values and smooth).
+11:16:37.904813   Completed cleaning raw river data.
+11:16:37.913937   Calculating flow balance to assign flow rates to ungauged rivers
+11:16:38.301167   Completed calculating flow balance.

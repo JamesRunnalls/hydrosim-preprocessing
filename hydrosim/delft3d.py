@@ -226,6 +226,7 @@ def create_river_files(parameters, folder, start_date, end_date, cosmo_files, ou
     parameters = clean_raw_river_data(parameters, start_date, end_date)
     parameters = flow_balance_ungauged_rivers(parameters)
     parameters = estimate_flow_temperature(parameters, cosmo_files, start_date)
+    verify_flow_balance(parameters)
     # verify_against_meteolakes_all(parameters)
     # verify_against_meteolakes(parameters)
     write_river_data_to_file(parameters, output_simulation_folder)
@@ -311,11 +312,13 @@ def clean_raw_river_data(parameters, start_date, end_date, dt=timedelta(minutes=
     for inflow in parameters["inflows"]:
         if "folder" in inflow:
             data = df.merge(inflow["data"], on='datetime', how='left')
+            data['flow'].values[data['flow'].values < inflow["min_flow"]] = np.nan
             data = data.interpolate(method=interpolate)
             inflow["data"] = data
 
     if "outflow" in parameters:
         data = df.merge(parameters["outflow"]["data"], on='datetime', how='left')
+        data['flow'].values[data['flow'].values < parameters["outflow"]["min_flow"]] = np.nan
         data = data.interpolate(method=interpolate)
         data["raw_flow"] = data["flow"]
         data["flow"] = data["flow"].rolling(window=12, win_type='gaussian', center=True).mean(std=2)
@@ -387,13 +390,70 @@ def verify_against_meteolakes_all(parameters):
     plt.show()
 
 
-def flow_balance_ungauged_rivers(parameters, min_flow=0.0001, dt=600):
+def predict_water_level(parameters):
+    flow_change = -np.array(parameters["outflow"]["data"]["flow"])
+    for inflow in parameters["inflows"]:
+        flow_change = flow_change + inflow["data"]["flow"]
+
+    dt = (parameters["outflow"]["data"]["datetime"].iloc[1] - parameters["outflow"]["data"]["datetime"].iloc[0]).total_seconds()
+
+    level = np.array(parameters["waterlevel"]["data"]["level"])[0]
+
+    dv = flow_change * dt
+
+    df = pd.read_csv("geneva.csv")
+    depth_volume = interp1d(df[" Depth (m)"], df["Volume (m3)"], fill_value="extrapolate")
+    volume_depth = interp1d(df["Volume (m3)"], df[" Depth (m)"], fill_value="extrapolate")
+
+    volume = [depth_volume(parameters["altitude"] - level)]
+
+    for i in range(len(dv)):
+        volume.append(volume[-1] + dv[i])
+    wl = parameters["altitude"] - volume_depth(np.array(volume).astype(float))
+
+    return wl
+
+
+def verify_flow_balance(parameters):
+    water_level_flow = get_water_level_change_flow_equivalent(parameters["waterlevel"]["data"], parameters["altitude"],
+                                                              parameters["bathymetry"])
+    predicted_water_level = predict_water_level(parameters)
+    outflow = np.array(parameters["outflow"]["data"]["flow"])
+
+    extra_flow = outflow + water_level_flow
+
+    for inflow in parameters["inflows"]:
+        extra_flow = extra_flow - inflow["data"]["flow"]
+
+    ax = plt.subplot(311)
+    ax.plot(extra_flow)
+    ax = plt.subplot(312)
+    ax.plot(np.cumsum(extra_flow))
+    ax = plt.subplot(313)
+    ax.plot(parameters["waterlevel"]["data"]["level"], label="real")
+    ax.plot(predicted_water_level, label="predicted")
+    ax.legend()
+    plt.show()
+
+
+def create_periods(dt, rebalance_period, length):
+    steps = min(round(rebalance_period / dt), round(length/2))
+    period = math.floor(length/steps)
+    periods = []
+    for p in range(period):
+        periods.append([p * steps, p * steps + steps])
+    periods[-1][1] = length
+    return periods
+
+def flow_balance_ungauged_rivers(parameters, min_flow=0.0001, dt=600, rebalance_period=604800):
     log("Calculating flow balance to assign flow rates to ungauged rivers")
     outflow = np.array(parameters["outflow"]["data"]["flow"])
     master_datetime = np.array(parameters["outflow"]["data"]["datetime"])
     temperature = [np.nan] * len(master_datetime)
     water_level_flow = get_water_level_change_flow_equivalent(parameters["waterlevel"]["data"], parameters["altitude"], parameters["bathymetry"])
     extra_flow = outflow + water_level_flow
+
+    periods = create_periods(dt, rebalance_period, len(master_datetime))
 
     for inflow in parameters["inflows"]:
         if "folder" in inflow:
@@ -404,11 +464,17 @@ def flow_balance_ungauged_rivers(parameters, min_flow=0.0001, dt=600):
             flow[np.isnan(flow)] = 0
             neg_flow = np.copy(flow)
             neg_flow[neg_flow > min_flow] = 0
-            added_vol = np.abs(np.sum(neg_flow * dt))
-            flow[flow <= min_flow] = min_flow
-            total_vol = np.sum(flow * dt)
-            flow = flow * (1 - added_vol/total_vol)
-            inflow["data"] = pd.DataFrame(zip(master_datetime, flow, temperature), columns=["datetime", "flow", "temperature"])
+
+            out_flow = np.array([])
+            for p in periods:
+                temp_flow = flow[p[0]: p[1]]
+                added_vol = np.abs(np.sum(neg_flow[p[0]: p[1]] * dt))
+                temp_flow[temp_flow <= min_flow] = min_flow
+                total_vol = np.sum(temp_flow * dt)
+                temp_flow = temp_flow * (1 - added_vol/total_vol)
+                out_flow = np.concatenate((out_flow, temp_flow))
+
+            inflow["data"] = pd.DataFrame(zip(master_datetime, out_flow, temperature), columns=["datetime", "flow", "temperature"])
 
     log("Completed calculating flow balance.")
     return parameters
